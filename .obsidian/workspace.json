@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Daily-Task",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,7 +178,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "01093f0e41923348",
+  "active": "dd5cf10ff2a490c6",
   "lastOpenFiles": [
     "0-Inbox/Lexer.md",
     "0-Inbox/03-02-2025/Eat That Frog!.md",

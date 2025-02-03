@@ -1,4 +1,4 @@
-
+#Eat_That_Frog
 ### Some important facts
 
 Hoping to finish all your tasks and be done with them is not realistic.
@@ -19,12 +19,25 @@ See yourself where you want to be. This will help us find people already there, 
 
 
 # Plan every day.
-
+#Daily-Task
 `Proper Prior Planning Prevents Poor Performance`
 
 We should Plan each day, each Week, each Month and Each Year. Make a master List. This will have items we want to accomplish over a year; now, plan for a month of things we should have done by the end of this month. At the start of the week, plan for the week to spend about 2 hours each Sunday. And every night, plan for the upcoming day. This list will have tasks that are to be done in the day. As we work through them, we will tick off each task, and by the end of the day, we will move the remaining functions to the next day's task. Doing this will help us focus and keep track of our overarching goals.
 
 # Focus on Activities and not Accomplishments.
 
-We can busy ourselves by doing tasks in arbitrary order and not accomplish anything meaningfully. Instead, we should do high-priority tasks, contributing more to our overall goal. No matter how simple the low-priority task is, we should start with higher-priority tasks and only get t low-priority tasks when we have time for them. Follow the _80/20_ rule, i.e. **80%** of our success will be from **20%** of our most important tasks 
+We can busy ourselves by doing tasks in arbitrary order and not accomplish anything meaningfully. Instead, we should do high-priority tasks, contributing more to our overall goal. No matter how simple the low-priority task is, we should start with higher-priority tasks and only get t low-priority tasks when we have time for them. Follow the _80/20_ rule, i.e. **80%** of our success will be from **20%** of our most important tasks. 
+
+# Considering the Consequences
+
+We should have a long-term perspective. Individuals with long-term plans also take good designs in the short term. Be mindful of the consequences of doing or not doing a task. Sometimes, we must face short-term pain/setbacks/losses for our long-term plan to work out.
+One should focus on the core skills that give them a strategic advantage in the long term. And work on them in the short term. 
+
+## Law of Forced Efficiency
+
+`There is never enough time to do everything, but there is always sufficient time to focus on what is the most important thing`
+
+People say they work better under deadlines, but pressure leads to more mistakes and rework. It's ideal to plan your work in advance and then add an extra _20%_ buffer for errors and rework.
+
+
 

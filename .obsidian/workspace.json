@@ -11,10 +11,14 @@
             "id": "01093f0e41923348",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "0-Inbox/03-02-2025/Eat That Frog!.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Eat That Frog!"
             }
           }
         ]
@@ -162,5 +166,10 @@
     }
   },
   "active": "01093f0e41923348",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "0-Inbox/Lexer.md",
+    "Untitled.canvas",
+    "0-Inbox/03-02-2025/Eat That Frog!.md",
+    "0-Inbox/03-02-2025"
+  ]
 }

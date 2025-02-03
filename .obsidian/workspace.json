@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "0-Inbox/03-02-2025/Eat That Frog!.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Daily-Task",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,8 +164,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd5cf10ff2a490c6",
+  "active": "01093f0e41923348",
   "lastOpenFiles": [
     "0-Inbox/Lexer.md",
     "0-Inbox/03-02-2025/Eat That Frog!.md",

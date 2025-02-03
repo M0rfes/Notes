@@ -35,9 +35,14 @@ One should focus on the core skills that give them a strategic advantage in the 
 
 ## Law of Forced Efficiency
 
-`There is never enough time to do everything, but there is always sufficient time to focus on what is the most important thing`
+`There is never enough time to do everything, but there is always sufficient time to focus on what is the most important thing`.
 
 People say they work better under deadlines, but pressure leads to more mistakes and rework. It's ideal to plan your work in advance and then add an extra _20%_ buffer for errors and rework.
 
+Ask yourself. `What are my highest-value activities?` before starting, i.e. what are some tasks, if done, will have the most returns for me or what tasks are not done, will have the worst outcome for me
+
+`What is something only I can do? And if done, it will make a real difference.`
+
+If you can't answer this question on your own, ask your **family**, your **boss** or your **colleague**
 
 

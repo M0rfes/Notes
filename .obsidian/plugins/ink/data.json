@@ -5,7 +5,7 @@
     "lastVersionTipRead": "0.3.3"
   },
   "customAttachmentFolders": true,
-  "noteAttachmentFolderLocation": "note",
+  "noteAttachmentFolderLocation": "root",
   "notelessAttachmentFolderLocation": "obsidian",
   "writingSubfolder": "Ink/Writing",
   "drawingSubfolder": "Ink/Drawing",

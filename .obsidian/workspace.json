@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0-Inbox/03-02-2025/Eat That Frog!.md",
+                "file": "Eat That Frog!.md",
                 "mode": "source",
                 "source": false
               },
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,9 +176,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "dd5cf10ff2a490c6",
+  "active": "f2968546cba20459",
   "lastOpenFiles": [
-    "0-Inbox/03-02-2025/Eat That Frog!.md",
+    "Eat That Frog!.md",
     "0-Inbox/Test.md",
     "0-Inbox/Ink/Writing/2025.2.3 - 23.56pm.writing",
     "0-Inbox/Ink/Writing/2025.2.3 - 23.45pm.writing",

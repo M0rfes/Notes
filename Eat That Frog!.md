@@ -7,6 +7,7 @@ tags:
   - eat_that_frog
   - book/summary
   - book/productivity
+  - inbox
 ---
 
 ### Some important facts

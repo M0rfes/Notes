@@ -2,8 +2,8 @@
 Date: 03-02-2025
 type: Book Summary
 Gerna: Productivity
+start: 03-02-2025
 tags:
-  - 03-03-2015
   - eat_that_frog
   - book/summary
   - book/productivity

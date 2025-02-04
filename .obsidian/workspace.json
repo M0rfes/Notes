@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "summa",
+                "query": "Productivity",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2968546cba20459",
+  "active": "dd5cf10ff2a490c6",
   "lastOpenFiles": [
     "Eat That Frog!.md",
     "0-Inbox/Test.md",

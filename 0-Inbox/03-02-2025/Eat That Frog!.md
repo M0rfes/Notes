@@ -2,9 +2,13 @@
 Date: 03-02-2025
 type: Book Summary
 Gerna: Productivity
+tags:
+  - 03-03-2015
+  - eat_that_frog
+  - book/summary
+  - book/productivity
 ---
-#03-03-2015/Eat_That_Frog
-#productivity #book/summary
+
 ### Some important facts
 
 Hoping to finish all your tasks and be done with them is not realistic.
@@ -12,7 +16,7 @@ We will never finish everything; there is never enough time. Therefore, we can o
 
 ### Visualise
 
-See yourself where you want to be. This will help us find people already there, and we can ask them what to do or if we cant ask we can try to read about them how they got there and emulate it
+See yourself where you want to be. This will help us find people already there, and we can ask them what to do, or if we can't ask, we can try to read about how they got there and emulate it
 # Use this 7-step plan to figure things out and make a plan-out thing.
 
 1. **Decide what you want done** — either yourself or with your Boss. Try to find a balance between life goals and career goals. This plan applies not only to jobs but to life as well. Knowing what we want is the first step towards achieving it. Because the worst use of once time is doing something that was not needed in the first place
@@ -25,7 +29,6 @@ See yourself where you want to be. This will help us find people already there, 
 
 
 # Plan every day.
-#03-03-2015/Eat_That_Frog/Daily-Task
 `Proper Prior Planning Prevents Poor Performance`
 
 We should Plan each day, each Week, each Month and Each Year. Make a master List. This will have items we want to accomplish over a year; now, plan for a month of things we should have done by the end of this month. At the start of the week, plan for the week to spend about 2 hours each Sunday. And every night, plan for the upcoming day. This list will have tasks that are to be done in the day. As we work through them, we will tick off each task, and by the end of the day, we will move the remaining functions to the next day's task. Doing this will help us focus and keep track of our overarching goals.

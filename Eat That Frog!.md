@@ -1,5 +1,4 @@
 ---
-Date: 03-02-2025
 type: Book Summary
 Gerna: Productivity
 start: 03-02-2025
@@ -9,7 +8,7 @@ tags:
   - book/productivity
   - inbox
 ---
-
+#03-02-2025
 ### Some important facts
 
 Hoping to finish all your tasks and be done with them is not realistic.
@@ -55,4 +54,5 @@ Ask yourself. `What are my highest-value activities?` before starting, i.e. what
 
 If you can't answer this question on your own, ask your **family**, your **boss** or your **colleague**
 
+#04-02-2025
 

@@ -1,4 +1,10 @@
-#Eat_That_Frog
+---
+Date: 03-02-2025
+type: Book Summary
+Gerna: Productivity
+---
+#03-03-2015/Eat_That_Frog
+#productivity #book/summary
 ### Some important facts
 
 Hoping to finish all your tasks and be done with them is not realistic.
@@ -19,7 +25,7 @@ See yourself where you want to be. This will help us find people already there, 
 
 
 # Plan every day.
-#Daily-Task
+#03-03-2015/Eat_That_Frog/Daily-Task
 `Proper Prior Planning Prevents Poor Performance`
 
 We should Plan each day, each Week, each Month and Each Year. Make a master List. This will have items we want to accomplish over a year; now, plan for a month of things we should have done by the end of this month. At the start of the week, plan for the week to spend about 2 hours each Sunday. And every night, plan for the upcoming day. This list will have tasks that are to be done in the day. As we work through them, we will tick off each task, and by the end of the day, we will move the remaining functions to the next day's task. Doing this will help us focus and keep track of our overarching goals.

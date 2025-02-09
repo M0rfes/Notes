@@ -75,12 +75,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ryon_server.md",
+                "file": "rayo-cache.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ryon_server"
+              "title": "rayo-cache"
             }
           }
         ],
@@ -116,7 +116,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:project/rust/rayo/cache",
+                "query": "tag:project",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,8 +137,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -263,9 +262,10 @@
   },
   "active": "f3fbc163d78f8a20",
   "lastOpenFiles": [
-    "ryon_clinet.md",
-    "ryon_server.md",
     "rayo-cache.md",
+    "ryon_server.md",
+    "rayo_cache_common.md",
+    "ryon_clinet.md",
     "ryon-common.md",
     "rayo-cache-down.md",
     "Eat That Frog!.md",

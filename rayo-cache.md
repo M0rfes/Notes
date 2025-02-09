@@ -29,6 +29,7 @@ This will add value to user collection. And will return the objects ID.
 Like REST, we can add user/<id> to read a single user or do operations on a single user.
 
 TODO
-[] Make a query parser
-[] Map `GET` `POST` `PUT` `PATH` `Delete` to Rust enums
+1. [ ] Make a query parser
+2. [ ] Map `GET` `POST` `PUT` `PATH` `Delete` to Rust enums
+
 

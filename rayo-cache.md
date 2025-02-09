@@ -5,13 +5,27 @@ start: 09-02-2025
 tags:
   - project/rust/rayo-cache
   - rmp-serde
-dependencies: "[[rayo-cache-down]]"
+  - tokio
 ---
+[rmp-serde](https://crates.io/crates/rmp-serde) [[[rmp-serde]]]
+[[bytes]]
+[[chrono]]
+[[clap]]
+[[dashmap]]
+[[futures]]
+[[serde]]
+[[tokio]]
+[[tokio-util]]
+[[tracing]]
+[[tracing-subscriber]]
+[[ulid]]
+[[thiserror]]
+[[serde_json]]
 [Rayo Cache](https://github.com/M0rfes/rayo-cache)
 
-This repo is only for my learning purpose. I don't intend to compete with industry standards such as Reddish, etc.
+This repo is only for my learning purpose. I don't intend to compete with industry standards such as Reddish.
 
-The idea for this came to me when I considered improving [Tiny Redis](https://github.com/M0rfes/tiny-redis).  [Tiny Redis](https://github.com/M0rfes/tiny-redis) was a learning experiment, but instead of just learning code, I want to polish my skills in low-level design as well. I would like to introduce a usable interface right now. I am considering using [REST](https://en.wikipedia.org/wiki/REST)like semantics for querying and mutating my DB, i.e GET to read POST to create.
+The idea for this came to me when I considered improving [Tiny Redis](https://github.com/M0rfes/tiny-redis).  [Tiny Redis](https://github.com/M0rfes/tiny-redis) was a learning experiment, but instead of just learning code, I want to polish my skills in low-level design as well. I want to introduce a usable interface right now. I am considering using [REST](https://en.wikipedia.org/wiki/REST)like semantics for querying and mutating my DB, i.e GET to read POST to create.
 
 # In progress syntax
 

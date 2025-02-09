@@ -30,7 +30,7 @@
               "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Juggl"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -42,7 +42,7 @@
               "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Juggl"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -54,11 +54,23 @@
               "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Juggl"
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "01a66c9054acfb19",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "f3fbc163d78f8a20",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -72,7 +84,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -248,11 +260,11 @@
       "juggl:Juggl global graph": false
     }
   },
-  "active": "01a66c9054acfb19",
+  "active": "f3fbc163d78f8a20",
   "lastOpenFiles": [
     "rayo-cache-down.md",
-    "Eat That Frog!.md",
     "rayo-cache.md",
+    "Eat That Frog!.md",
     "Untitled.canvas",
     "rmp-.md",
     "0-Inbox/Test.md",

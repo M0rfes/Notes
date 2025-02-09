@@ -20,8 +20,59 @@
               "icon": "lucide-file",
               "title": "Eat That Frog!"
             }
+          },
+          {
+            "id": "eb337fa1f0672a98",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Juggl"
+            }
+          },
+          {
+            "id": "869bb503cd1f3b74",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Juggl"
+            }
+          },
+          {
+            "id": "04c3995b9a088714",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "juggl_view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Juggl"
+            }
+          },
+          {
+            "id": "01a66c9054acfb19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rayo-cache.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rayo-cache"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -74,8 +125,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -158,6 +208,26 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "7c4188d5af2e30ba",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {},
+              "icon": "ag-node-list",
+              "title": "Juggl nodes"
+            }
+          },
+          {
+            "id": "40bf19abe793f853",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {},
+              "icon": "ag-style",
+              "title": "Juggl style"
+            }
           }
         ],
         "currentTab": 4
@@ -174,12 +244,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "juggl:Juggl global graph": false
     }
   },
-  "active": "dd5cf10ff2a490c6",
+  "active": "01a66c9054acfb19",
   "lastOpenFiles": [
+    "rayo-cache-down.md",
     "Eat That Frog!.md",
+    "rayo-cache.md",
+    "Untitled.canvas",
+    "rmp-.md",
     "0-Inbox/Test.md",
     "0-Inbox/Ink/Writing/2025.2.3 - 23.56pm.writing",
     "0-Inbox/Ink/Writing/2025.2.3 - 23.45pm.writing",
@@ -190,7 +265,6 @@
     "0-Inbox/Ink/Writing",
     "0-Inbox/Ink",
     "0-Inbox/Lexer.md",
-    "Untitled.canvas",
     "0-Inbox/03-02-2025"
   ]
 }

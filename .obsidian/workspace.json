@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8b48adc075972562",
+        "id": "e4ff4dc5bce78a2f",
         "type": "tabs",
         "children": [
           {
-            "id": "cf22b7beb11fc7ef",
+            "id": "13228861104e7a1d",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -143,13 +143,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "2fde29cf04ac1eb1",
+            "type": "leaf",
+            "state": {
+              "type": "gemini-agent-view",
+              "state": {},
+              "icon": "sparkles",
+              "title": "Agent Mode"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 430.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,11 +171,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "juggl:Juggl global graph": false
+      "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "cf22b7beb11fc7ef",
+  "active": "13228861104e7a1d",
   "lastOpenFiles": [
+    "Untitled.canvas",
+    "gemini-scribe/Agent-Sessions",
+    "gemini-scribe/Prompts/example-expert.md",
+    "gemini-scribe/Prompts",
+    "gemini-scribe/skills",
+    "gemini-scribe",
     "rayo-cache.md",
     "ryon_server.md",
     "rayo_cache_common.md",
@@ -173,7 +189,6 @@
     "ryon-common.md",
     "rayo-cache-down.md",
     "Eat That Frog!.md",
-    "Untitled.canvas",
     "rmp-.md",
     "0-Inbox/Test.md",
     "0-Inbox/Ink/Writing/2025.2.3 - 23.56pm.writing",
@@ -183,8 +198,6 @@
     "0-Inbox/Excalidraw",
     "0-Inbox/Ink/Writing/2025.2.3 - 23.46pm.writing",
     "0-Inbox/Ink/Writing",
-    "0-Inbox/Ink",
-    "0-Inbox/Lexer.md",
-    "0-Inbox/03-02-2025"
+    "0-Inbox/Lexer.md"
   ]
 }

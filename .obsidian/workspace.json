@@ -11,13 +11,84 @@
             "id": "13228861104e7a1d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2026-03-30.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2026-03-30"
+            }
+          },
+          {
+            "id": "2ac57eec4b3b2fde",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLMs/Tokenization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tokenization"
+            }
+          },
+          {
+            "id": "298d7126049f5aab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gemini-scribe/Prompts/example-expert.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "example-expert"
+            }
+          },
+          {
+            "id": "e4eec588cf8b122c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/DDIA-14-03-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DDIA-14-03-2026"
+            }
+          },
+          {
+            "id": "3916d7a1a800fa47",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "f9d45f43404fa34f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLMs/Token cashing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Token cashing"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -49,7 +120,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:project",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,12 +207,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "LLMs/Token cashing.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Token cashing"
             }
           },
           {
@@ -174,30 +246,46 @@
       "gemini-scribe:Gemini Scribe: Agent Mode": false
     }
   },
-  "active": "13228861104e7a1d",
+  "active": "f2968546cba20459",
   "lastOpenFiles": [
-    "Untitled.canvas",
-    "gemini-scribe/Agent-Sessions",
-    "gemini-scribe/Prompts/example-expert.md",
-    "gemini-scribe/Prompts",
-    "gemini-scribe/skills",
-    "gemini-scribe",
-    "rayo-cache.md",
-    "ryon_server.md",
-    "rayo_cache_common.md",
-    "ryon_clinet.md",
-    "ryon-common.md",
-    "rayo-cache-down.md",
-    "Eat That Frog!.md",
-    "rmp-.md",
-    "0-Inbox/Test.md",
-    "0-Inbox/Ink/Writing/2025.2.3 - 23.56pm.writing",
-    "0-Inbox/Ink/Writing/2025.2.3 - 23.45pm.writing",
-    "0-Inbox/Ink/Writing/2025.2.3 - 23.51pm.writing",
-    "0-Inbox/Excalidraw/Drawing 2025-02-03 23.51.04.excalidraw.md",
-    "0-Inbox/Excalidraw",
-    "0-Inbox/Ink/Writing/2025.2.3 - 23.46pm.writing",
-    "0-Inbox/Ink/Writing",
-    "0-Inbox/Lexer.md"
+    "LLMs/Token cashing.md",
+    "posts/2026-03-29/linkedin.md",
+    "LLMs/RAG.md",
+    "posts/2026-03-29/rag-modalities-infographic.png",
+    "posts/2026-03-29/rag-modalities-infographic.png.tmp",
+    "posts/2026-03-29",
+    "LLMs/LightRAG.md",
+    "posts",
+    "gemini-scribe/skills/linkedin-orchestrator.md",
+    "gemini-scribe/skills/linkedin-reviewer.md",
+    "gemini-scribe/skills/linkedin-author.md",
+    "agent-refrences/orchestrator.agent.md",
+    "agent-refrences/marketing-expert.agent.md",
+    "agent-refrences/content-author.agent.md",
+    "agent-refrences",
+    "LLMs/Microsoft graphRag.md",
+    "LLMs/needle-in-a-haystack-20-03-2026.md",
+    "LLMs/Knowledge Graphs.md",
+    "LLMs/Agentic RAG.md",
+    "LLMs/Re-ranking.md",
+    "MLLM - Multimodel LLM.md",
+    "Architecture/DDIA-14-03-2026.md",
+    "Architecture/building-microservices-17-02-2026.md",
+    "Architecture/building-microservices-16-02-2026.md",
+    "gemini-scribe/Agent-Sessions/Agent Session 3-29-2026.md",
+    "Token Bucket.md",
+    "LLM.md",
+    "Coding/satisfies-15-02-2026.md",
+    "Daily Notes/2026-03-30.md",
+    "Productivity/eat-the-frog-14-02-2026.md",
+    "Statements/Statements.md",
+    "videos/satisfies-15-02-2026.mov",
+    "Coding",
+    "Productivity",
+    "Architecture",
+    "images/satisfies-15-02-2026.png",
+    "videos",
+    "images",
+    "Untitled.canvas"
   ]
 }

@@ -1,0 +1,18 @@
+[
+  {
+    "icon": "book-open",
+    "text": "Summarize the key technical concepts in the LLMs folder and suggest three related topics for further research"
+  },
+  {
+    "icon": "calendar",
+    "text": "Extract all tasks and productivity goals from my Daily Notes for the month of March 2026"
+  },
+  {
+    "icon": "sparkles",
+    "text": "Refine the Daily Note Template to include a dedicated section for tracking Gemini AI experimentation results"
+  },
+  {
+    "icon": "globe",
+    "text": "Research how different tokenization methods affect LLM efficiency and add the findings to the Tokenization note"
+  }
+]

@@ -136,3 +136,15 @@ require_confirmation:
 > When I send multiple notes, compare them and identify cross-note structure before editing them.
 
 --- 
+## User
+
+> [!metadata]- Message Info
+> | Property | Value |
+> | -------- | ----- |
+> | Time | 2026-03-30T15:42:11.110Z |
+> | File Version | unknown |
+
+> [!user]+
+> enrich the content in [[LLMs/Agentic RAG.md|Agentic RAG]]
+
+--- 

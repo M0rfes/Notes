@@ -13,5 +13,5 @@ Are you using the right RAG modality for 2026?
 RAG isn't just a search engine anymore—it’s a multimodal brain.
 
 Which stage is your team at? 1, 2, or 3? Let’s talk in the comments! 👇
-
+![[rag-modalities-infographic.png]]
 #RAG #ArtificialIntelligence #AI #LLM #DataScience #Innovation

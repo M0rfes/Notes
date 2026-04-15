@@ -4,91 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "e4ff4dc5bce78a2f",
+        "id": "9698df5e1e7872e7",
         "type": "tabs",
         "children": [
           {
-            "id": "13228861104e7a1d",
+            "id": "05086672a2e55be5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2026-03-30.md",
+                "file": "posts/2026-04-18/linkedin.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "2026-03-30"
-            }
-          },
-          {
-            "id": "2ac57eec4b3b2fde",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLMs/Tokenization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Tokenization"
-            }
-          },
-          {
-            "id": "298d7126049f5aab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "gemini-scribe/Prompts/example-expert.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "example-expert"
-            }
-          },
-          {
-            "id": "e4eec588cf8b122c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/DDIA-14-03-2026.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "DDIA-14-03-2026"
-            }
-          },
-          {
-            "id": "3916d7a1a800fa47",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "f9d45f43404fa34f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLMs/Token cashing.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Token cashing"
+              "title": "linkedin"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,12 +83,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "7f94840c9f216bec",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 342.5
   },
   "right": {
     "id": "fbdbb7762ae25dc3",
@@ -161,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "gemini-scribe/AGENTS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +125,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for AGENTS"
             }
           },
           {
@@ -207,13 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LLMs/Token cashing.md",
+                "file": "gemini-scribe/AGENTS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Token cashing"
+              "title": "Outline of AGENTS"
             }
           },
           {
@@ -225,13 +180,24 @@
               "icon": "sparkles",
               "title": "Agent Mode"
             }
+          },
+          {
+            "id": "cd1fc5ff0ec81465",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 430.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,49 +209,58 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "gemini-scribe:Gemini Scribe: Agent Mode": false
+      "gemini-scribe:Gemini Scribe: Agent Mode": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "f2968546cba20459",
+  "active": "05086672a2e55be5",
   "lastOpenFiles": [
-    "LLMs/Token cashing.md",
-    "posts/2026-03-29/linkedin.md",
-    "LLMs/RAG.md",
-    "posts/2026-03-29/rag-modalities-infographic.png",
-    "posts/2026-03-29/rag-modalities-infographic.png.tmp",
-    "posts/2026-03-29",
-    "LLMs/LightRAG.md",
-    "posts",
-    "gemini-scribe/skills/linkedin-orchestrator.md",
-    "gemini-scribe/skills/linkedin-reviewer.md",
-    "gemini-scribe/skills/linkedin-author.md",
-    "agent-refrences/orchestrator.agent.md",
-    "agent-refrences/marketing-expert.agent.md",
-    "agent-refrences/content-author.agent.md",
-    "agent-refrences",
-    "LLMs/Microsoft graphRag.md",
-    "LLMs/needle-in-a-haystack-20-03-2026.md",
-    "LLMs/Knowledge Graphs.md",
-    "LLMs/Agentic RAG.md",
-    "LLMs/Re-ranking.md",
-    "MLLM - Multimodel LLM.md",
-    "Architecture/DDIA-14-03-2026.md",
-    "Architecture/building-microservices-17-02-2026.md",
-    "Architecture/building-microservices-16-02-2026.md",
-    "gemini-scribe/Agent-Sessions/Agent Session 3-29-2026.md",
-    "Token Bucket.md",
-    "LLM.md",
-    "Coding/satisfies-15-02-2026.md",
+    "posts/2026-04-16/linkedin.md",
+    "posts/2026-04-17/linkedin.md",
+    "posts/2026-04-16/temporal-coupling.png",
+    "posts/2026-04-16/temporal-coupling.png.tmp",
+    "posts/2026-04-18/linkedin.md",
+    "posts/2026-04-15/linkedin.md",
+    "Untitled 4.base",
+    "posts/2026-04-18/common-coupling.png",
+    "posts/2026-04-18/common-coupling.png.tmp",
+    "posts/2026-04-17/pass-through-coupling.png",
+    "posts/2026-04-17/pass-through-coupling.png.tmp",
+    "posts/2026-04-15/domain-coupling.png",
+    "posts/2026-04-15/domain-coupling.png.tmp",
+    "posts/2026-04-18",
+    "posts/2026-04-17",
+    "posts/2026-04-16",
+    "posts/2026-04-15",
+    "Untitled 3.base",
+    "gemini-scribe/Agent-Sessions/linkedin-drafts-coupling.md",
+    "gemini-scribe/Prompts/linkedin-orchestrator.md",
+    "gemini-scribe/AGENTS.md",
+    "gemini-scribe/Agent-Sessions/LLM Router Pattern & Microservice Coupling.md",
+    "Architecture/Coupling.md",
+    "Agents/Communication.md",
+    "Agents/Agents.md",
+    "posts/2026-04-11/linkedin.md",
+    "gemini-scribe/Prompts/Note Organizer.md",
+    "Pasted image 20260415130102.png",
+    "Pasted image 20260415125317.png",
+    "Pasted image 20260414201942.png",
+    "Pasted image 20260414194252.png",
+    "Pasted image 20260414192702.png",
+    "posts/2026-04-11/agent-communication-infographic.png",
+    "GEMINI.md",
+    "posts/2026-03-30/linkedin.md",
+    "posts/2026-04-01/linkedin.md",
+    "tools/LangGraph.md",
+    "posts/2026-04-03/linkedin.md",
+    "posts/2026-04-02/linkedin.md",
+    "posts/2026-04-05/linkedin.md",
+    "posts/2026-04-04/linkedin.md",
+    "Daily Notes/2026-03-31.md",
     "Daily Notes/2026-03-30.md",
-    "Productivity/eat-the-frog-14-02-2026.md",
-    "Statements/Statements.md",
-    "videos/satisfies-15-02-2026.mov",
-    "Coding",
-    "Productivity",
-    "Architecture",
-    "images/satisfies-15-02-2026.png",
-    "videos",
-    "images",
+    "posts/2026-03-31/linkedin.md",
+    "LLMs/Re-ranking.md",
+    "LLMs/Agentic RAG.md",
     "Untitled.canvas"
   ]
 }

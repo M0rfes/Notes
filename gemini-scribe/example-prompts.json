@@ -1,18 +1,18 @@
 [
   {
-    "icon": "book-open",
-    "text": "Summarize the key technical concepts in the LLMs folder and suggest three related topics for further research"
+    "icon": "search",
+    "text": "Find all mentions of the satisfies operator in my Coding folder and explain how it improves type safety in AI tool definitions"
   },
   {
-    "icon": "calendar",
-    "text": "Extract all tasks and productivity goals from my Daily Notes for the month of March 2026"
+    "icon": "file-plus",
+    "text": "Synthesize my research on Microsoft GraphRAG and LightRAG into a new technical note titled Advanced-RAG-Comparison-15-04-2026"
+  },
+  {
+    "icon": "link",
+    "text": "Analyze the relationship between microservices coupling principles and the Router Pattern used in multi-model LLM architectures"
   },
   {
     "icon": "sparkles",
-    "text": "Refine the Daily Note Template to include a dedicated section for tracking Gemini AI experimentation results"
-  },
-  {
-    "icon": "globe",
-    "text": "Research how different tokenization methods affect LLM efficiency and add the findings to the Tokenization note"
+    "text": "Review the Agents and Communication notes to propose a standardized protocol for multi-agent interaction within my LangGraph projects"
   }
 ]

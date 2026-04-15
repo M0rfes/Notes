@@ -1,20 +1,20 @@
 ---
-title: Tokenization
+title: Tokenization in LLMs
 type: research
 status: seed
 created: 2026-03-29
-updated: 2026-03-29
-tags: [LLM, tokenization, research]
-aliases: [Tokenization Techniques]
-summary: A research note exploring different tokenization methods used in LLMs, including character-level, word-level, and sub-word techniques.
-entities: [ChatML, LLM]
-topics: [Character-Level Tokenization, Word-Level Tokenization, Sub-word Tokenization, Special Tokens]
-related: [LLMs/needle-in-a-haystack-20-03-2026.md]
+updated: 2026-03-30
+tags: [LLM, tokenization, research, NLP]
+aliases: [Tokenization Techniques, Tokens]
+summary: A research note exploring different tokenization methods used in LLMs, including character-level, word-level, and sub-word techniques like BPE.
+entities: [ChatML, LLM, Byte Pair Encoding, BPE]
+topics: [Character-Level Tokenization, Word-Level Tokenization, Sub-word Tokenization, Special Tokens, ChatML]
+related: [LLMs/needle-in-a-haystack-20-03-2026.md, LLMs/LLMs.md]
 ---
 
 # Tokenization
 
-There are multiple ways to approach [[Tokenization]] in [[LLM]]s:
+There are multiple ways to approach **[[Tokenization]]** in **[[LLMs]]**:
 
 1. **[[Character-Level Tokenization]]**
 2. **[[Word-Level Tokenization]]**
@@ -43,7 +43,7 @@ We also need special tokens for:
 
 ## ChatML Format
 #ChatML_format 
-[[ChatML]] is a specific format for structuring conversations:
+**[[ChatML]]** is a specific format for structuring conversations:
 - **`<|im_start|>`**: Marks the beginning of a message from a specific role.
 - **`<|im_sep|>`**: Separates the role name (system, user, assistant) from the actual message content.
 - **`<|im_end|>`**: Marks the end of that message.
@@ -57,4 +57,10 @@ This allows the model to clearly understand: "Who is speaking?" and "What did th
 
 ## Sub-word Tokenization
 #Sub-word-Tokenization
-(Content pending...)
+This is the modern standard for [[LLMs]]. It breaks words into smaller meaningful units, balancing the efficiency of word-level tokenization with the flexibility of character-level.
+
+- **[[Byte Pair Encoding]] (BPE)**: Used by GPT models. It iteratively merges the most frequent pairs of characters or character sequences.
+- **[[WordPiece]]**: Used by BERT. Similar to BPE but uses a likelihood-based merge rule rather than just frequency.
+- **[[Unigram]]**: Used by T5. It starts with a large vocabulary and removes tokens that increase the overall loss the least.
+
+Sub-word tokenization allows the model to handle "unseen" words by breaking them into known sub-components (e.g., "unfriendly" -> "un" + "friendly").

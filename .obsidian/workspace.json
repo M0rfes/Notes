@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9698df5e1e7872e7",
+        "id": "612929913c6fbd13",
         "type": "tabs",
         "children": [
           {
-            "id": "05086672a2e55be5",
+            "id": "a9f2acdf02fb8c65",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/2026-04-18/ddd-summary/linkedin.md",
+                "file": "posts/2026-04-19/summary/linkedin.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,42 +29,6 @@
               },
               "icon": "lucide-file",
               "title": "linkedin"
-            }
-          },
-          {
-            "id": "a27a71ad1ee6e884",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Architecture/Pasted image 20260415130102.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260415130102"
-            }
-          },
-          {
-            "id": "a8338df2e2fa681a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Architecture/Coupling.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Coupling"
             }
           }
         ]
@@ -227,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -248,8 +212,32 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "05086672a2e55be5",
+  "active": "a9f2acdf02fb8c65",
   "lastOpenFiles": [
+    "posts/2026-04-19/summary/infographic.png",
+    "posts/2026-04-19/summary/infographic.png.tmp",
+    "posts/2026-04-19/conway/infographic.png",
+    "posts/2026-04-19/conway/infographic.png.tmp",
+    "posts/2026-04-19/data-governance/infographic.png",
+    "posts/2026-04-19/data-governance/infographic.png.tmp",
+    "posts/2026-04-19/volatility/infographic.png",
+    "posts/2026-04-19/volatility/infographic.png.tmp",
+    "posts/2026-04-19/ddd/infographic.png",
+    "posts/2026-04-19/ddd/infographic.png.tmp",
+    "posts/2026-04-19/conway/linkedin.md",
+    "posts/2026-04-19/data-governance/linkedin.md",
+    "posts/2026-04-19/volatility/linkedin.md",
+    "posts/2026-04-19/ddd/linkedin.md",
+    "posts/2026-04-19/summary/linkedin.md",
+    "Untitled.base",
+    "Untitled.md",
+    "Untitled 1.base",
+    "Architecture/How to split a microservice.md",
+    "posts/2026-04-19/volatility",
+    "posts/2026-04-19/summary",
+    "posts/2026-04-19/ddd",
+    "images/Pasted image 20260414192702.png",
+    "posts/2026-04-18/ddd-summary/linkedin.md",
     "posts/2026-04-18/ddd-summary/ddd-infographic.png",
     "posts/2026-04-18/bounded-context/linkedin.md",
     "posts/2026-04-18/aggregate/linkedin.md",
@@ -257,29 +245,12 @@
     "posts/2026-04-18/ubiquitous-language/linkedin.md",
     "posts/2026-04-18/ubiquitous-language/ddd-infographic.png",
     "posts/2026-04-18/bounded-context/bc-infographic.png",
-    "posts/2026-04-18/bounded-context/bc-infographic.png.tmp",
     "posts/2026-04-18/aggregate/aggregate-infographic.png",
-    "posts/2026-04-18/aggregate/aggregate-infographic.png.tmp",
-    "posts/2026-04-18/ubiquitous-language/ul-infographic.png.tmp",
-    "posts/2026-04-18/bounded-context/ddd-infographic.png",
-    "posts/2026-04-18/aggregate/ddd-infographic.png",
-    "posts/2026-04-18/ddd-summary/ddd-infographic.png.tmp",
     "posts/2026-04-18/linkedin.md",
-    "posts/2026-04-18/common-coupling.png",
     "Architecture/DDD/DDD.md",
-    "posts/2026-04-18/ddd-summary/linkedin.md",
-    "posts/2026-04-18/ddd-summary",
-    "posts/2026-04-18/bounded-context",
-    "posts/2026-04-18/aggregate",
-    "posts/2026-04-18/ubiquitous-language",
     "Architecture/building-microservices-17-02-2026.md",
     "Architecture/Coupling.md",
     "Architecture/DDIA-14-03-2026.md",
-    "Untitled.md",
-    "Architecture/Pasted image 20260415130102.png",
-    "Pasted image 20260414192702 1.png",
-    "Untitled.base",
-    "Untitled 1.base",
     "posts/2026-03-29/linkedin.md",
     "posts/2026-04-11/linkedin.md",
     "posts/2026-04-01/linkedin.md",
@@ -289,12 +260,6 @@
     "posts/2026-04-15/linkedin.md",
     "gemini-scribe/Agent-Sessions/linkedin-drafts-coupling.md",
     "gemini-scribe/Prompts/linkedin-orchestrator.md",
-    "gemini-scribe/AGENTS.md",
-    "gemini-scribe/Agent-Sessions/LLM Router Pattern & Microservice Coupling.md",
-    "Agents/Communication.md",
-    "Agents/Agents.md",
-    "gemini-scribe/Prompts/Note Organizer.md",
-    "GEMINI.md",
     "Untitled.canvas"
   ]
 }

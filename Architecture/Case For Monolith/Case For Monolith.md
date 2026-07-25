@@ -1,0 +1,38 @@
+---
+title: Case For Monolith
+type: research
+status: budding
+created: 2026-04-20
+updated: 2026-04-20
+tags: [architecture, monolith, modularity, velocity, volatility]
+aliases: [Modular Monolith, Monolith First]
+summary: A deep dive into why Modular Monoliths are often the best choice for maximizing development velocity and managing volatility without the "distributed system tax."
+entities: [Shopify, Ruby on Rails]
+topics: [Software Architecture, Velocity, Volatility, Modular Monolith, Microservices]
+related: [How to split a microservice, building-microservices-16-02-2026]
+---
+
+# Case For Monolith
+
+[[Microservices]] are not the goal. You don’t “win” by having microservices. Adopting a microservice architecture should be a conscious decision, grounded in rational analysis. You should consider migrating to a microservice architecture only if you can’t find a simpler way to reach your end goal with your current architecture.
+
+Instead of focusing on building a microservice, one should focus on solving the problem at hand. If [[Scalability]] is an issue, one should consider whether vertical scaling is possible. 
+
+### The Velocity and Volatility Angle
+If **[[Volatility]]** (how often parts of the system change) is an issue, a code restructuring check—i.e., **[[Refactoring]]**—can unlock the tied-up volatility. Only build a microservice if no other solution works. Monoliths are not the enemy; poorly structured ones are.
+
+Avoid premature decomposition. If you don't have enough [[Domain-Driven Design|domain understanding]], you can decompose too early and end up with a service with incorrect boundaries and overlapping contexts.
+
+## The Modular Monolith
+
+![[Pasted image 20260420062254.png]]
+
+A **Modular Monolith** is a code structure in which code is organized into separate modules. This idea has been around since 1970, from the days of structured programming. If the boundaries are well defined, it can enable a high level of parallel work with the benefit of a simpler deployment topology, since all the modules are deployed together. This approach has been working for [[Shopify]] so far; their core is still a [[Ruby on Rails]] modular monolith rather than a microservice-first approach.
+
+All the modules still talk to the same database, and there is no data-level decomposition. We can go one step further and decompose the data as well:
+
+![[Pasted image 20260420062958.png]] 
+
+This enables us to extract a single module into a [[Microservices|microservice]] in the future. Till then, we can use this model to unlock **Velocity** (development speed) with a high degree of separation between our modules.
+
+Microservices are not all positive; the added complexity of a [[Distributed Systems|distributed system]] must be considered. If velocity is the primary goal, much of it can be achieved through a modular structure. Scaling can often be achieved through other system architecture patterns before resorting to the complexity of microservices.

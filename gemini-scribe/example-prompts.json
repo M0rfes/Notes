@@ -1,18 +1,18 @@
 [
   {
-    "icon": "search",
-    "text": "Find all mentions of the satisfies operator in my Coding folder and explain how it improves type safety in AI tool definitions"
-  },
-  {
-    "icon": "file-plus",
-    "text": "Synthesize my research on Microsoft GraphRAG and LightRAG into a new technical note titled Advanced-RAG-Comparison-15-04-2026"
-  },
-  {
-    "icon": "link",
-    "text": "Analyze the relationship between microservices coupling principles and the Router Pattern used in multi-model LLM architectures"
+    "icon": "book-open",
+    "text": "Compare the architectural trade-offs between the Case for Monolith notes and the Building Microservices notes to summarize when to avoid splitting services"
   },
   {
     "icon": "sparkles",
-    "text": "Review the Agents and Communication notes to propose a standardized protocol for multi-agent interaction within my LangGraph projects"
+    "text": "Draft a LinkedIn post based on my research into LMCache and Token Caching, focusing on how these technologies reduce latency in RAG systems"
+  },
+  {
+    "icon": "file-plus",
+    "text": "Synthesize my recent posts about Bounded Contexts and Aggregates into a new technical note titled DDD-Implementation-Strategies-25-04-2026"
+  },
+  {
+    "icon": "search",
+    "text": "Find all mentions of quantization and vLLM in my LLM folder to explain their role in optimizing model serving performance"
   }
 ]

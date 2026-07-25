@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/2026-04-26/linkedin.md",
+                "file": "Agents/Agents.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "linkedin"
+              "title": "Agents"
             }
           }
         ],
@@ -196,16 +196,6 @@
             }
           },
           {
-            "id": "2fde29cf04ac1eb1",
-            "type": "leaf",
-            "state": {
-              "type": "gemini-agent-view",
-              "state": {},
-              "icon": "sparkles",
-              "title": "Agent Mode"
-            }
-          },
-          {
             "id": "cd1fc5ff0ec81465",
             "type": "leaf",
             "state": {
@@ -237,35 +227,45 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "34413c74ef670006",
+  "active": "f2968546cba20459",
   "lastOpenFiles": [
+    "list/lib/python3.11/site-packages/_virtualenv.py",
+    "list/lib/python3.11/site-packages/_virtualenv.pth",
+    "list/bin/python3.11",
+    "list/bin/python",
+    "list/bin/python3",
+    "list/lib/python3.11/site-packages",
+    "list/bin/pydoc.bat",
+    "list/bin/deactivate.bat",
+    "list/bin/activate_this.py",
+    "list/bin/activate.ps1",
+    "list/bin/activate.nu",
+    "gemini-scribe/Prompts/linkedin-orchestrator.md",
+    "Untitled.canvas",
+    "GEMINI.md",
+    "Agents/Tool calling.md",
+    "gemini-scribe/skills/obsidian-cli/SKILL.md",
+    "gemini-scribe/skills/notebooklm/SKILL.md",
+    "gemini-scribe/skills/note-refactorer/SKILL.md",
+    "gemini-scribe/skills/linkedin-content-system/SKILL.md",
+    "Agents/Agents.md",
+    "Agents/Communication.md",
     "posts/2026-04-26/linkedin.md",
     "posts/2026-04-26/monolith-decomposition.png",
-    "posts/2026-04-26/monolith-decomposition.png.tmp",
-    "posts/2026-04-26",
     "Architecture/Splitting the Monolith.md",
-    "Untitled.canvas",
     "Architecture/How to split a microservice.md",
-    "Architecture/Untitled.base",
     "gemini-scribe/AGENTS.md",
     "posts/2026-04-20/linkedin.md",
     "posts/2026-04-20/monolith-patterns.png",
     "posts/2026-04-20/monolith-velocity-volatility.png",
-    "posts/2026-04-20/monolith-velocity-volatility.png.tmp",
     "Architecture/Case For Monolith/Case For Monolith.md",
     "posts/2026-04-19/summary/linkedin.md",
-    "posts/2026-04-20/monolith-patterns.png.tmp",
     "Volatility.md",
-    "posts/2026-04-20",
     "images/Pasted image 20260420062958.png",
     "images/Pasted image 20260420062254.png",
-    "Architecture/Case For Monolith",
     "posts/2026-04-19/summary/infographic.png",
-    "posts/2026-04-19/summary/infographic.png.tmp",
     "posts/2026-04-19/conway/infographic.png",
-    "posts/2026-04-19/conway/infographic.png.tmp",
     "posts/2026-04-19/data-governance/infographic.png",
-    "posts/2026-04-19/data-governance/infographic.png.tmp",
     "posts/2026-04-19/volatility/infographic.png",
     "posts/2026-04-19/ddd/infographic.png",
     "posts/2026-04-19/conway/linkedin.md",
@@ -275,16 +275,6 @@
     "posts/2026-04-18/ddd-summary/linkedin.md",
     "posts/2026-04-18/bounded-context/linkedin.md",
     "posts/2026-04-18/aggregate/linkedin.md",
-    "posts/2026-04-18/ubiquitous-language/linkedin.md",
-    "posts/2026-04-18/linkedin.md",
-    "Architecture/DDD/DDD.md",
-    "Architecture/building-microservices-17-02-2026.md",
-    "Architecture/Coupling.md",
-    "Architecture/DDIA-14-03-2026.md",
-    "posts/2026-03-29/linkedin.md",
-    "posts/2026-04-11/linkedin.md",
-    "posts/2026-04-01/linkedin.md",
-    "posts/2026-03-31/linkedin.md",
-    "posts/2026-04-17/linkedin.md"
+    "posts/2026-04-18/ubiquitous-language/linkedin.md"
   ]
 }

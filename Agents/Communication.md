@@ -27,7 +27,7 @@ related:
   - "[[Architecture]]"
 ---
 
-When running a [[multi-agent system]], we need a way for agents to communicate with one another. There are quite a few ways for the agents to talk/pass info to each other.
+When running a [[multi-agent system]], we need a way for [[Agents|agents]] to communicate with one another. There are quite a few ways for the agents to talk/pass info to each other.
 
 # Linear
 This is when the flow is set to a series of steps, one after another, just a simple workflow like drafting replies to a set of emails or generating captions for images.

@@ -4,12 +4,24 @@ type: research
 status: seed
 created: 2026-03-29
 updated: 2026-03-30
-tags: [Microsoft, GraphRAG, LLM, research]
-aliases: [Microsoft GraphRAG, MS GraphRAG]
+tags:
+  - microsoft
+  - graph-rag
+  - research
+  - rag
+aliases:
+  - Microsoft GraphRAG
+  - MS GraphRAG
 summary: Microsoft's framework for building knowledge graph-enhanced retrieval-augmented generation systems.
-entities: [Microsoft]
-topics: [GraphRAG, Knowledge Graphs, Data Retrieval]
-related: [LLMs/Knowledge Graphs.md, LLMs/RAG.md]
+entities:
+  - Microsoft
+topics:
+  - GraphRAG
+  - Knowledge Graphs
+  - Data Retrieval
+related:
+  - LLMs/Knowledge Graphs.md
+  - LLMs/RAG.md
 ---
 
 # Microsoft GraphRAG

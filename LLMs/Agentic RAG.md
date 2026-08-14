@@ -4,12 +4,33 @@ type: research
 status: seed
 created: 2026-03-29
 updated: 2026-03-30
-tags: [LLM, RAG, AI-Agents, research, agentic-rag]
-aliases: [Agentic RAG]
+tags:
+  - rag
+  - ai-agents
+  - research
+  - agentic-rag
+aliases:
+  - Agentic RAG
 summary: Evolution of RAG into dynamic, autonomous systems where an LLM uses reasoning to manage the retrieval process, tool selection, and self-correction.
-entities: [Ottomator Agents, LangGraph, LlamaIndex, CrewAI, Haystack]
-topics: [Semantic Search, Hybrid Search, BM25, Retrieval Tools, Autonomous Choice, Self-RAG, CRAG, Router Pattern]
-related: [LLMs/RAG.md, LLMs/Re-ranking.md, LLMs/Knowledge Graphs.md]
+entities:
+  - Ottomator Agents
+  - LangGraph
+  - LlamaIndex
+  - CrewAI
+  - Haystack
+topics:
+  - Semantic Search
+  - Hybrid Search
+  - BM25
+  - Retrieval Tools
+  - Autonomous Choice
+  - Self-RAG
+  - CRAG
+  - Router Pattern
+related:
+  - LLMs/RAG.md
+  - LLMs/Re-ranking.md
+  - LLMs/Knowledge Graphs.md
 ---
 
 # Agentic RAG

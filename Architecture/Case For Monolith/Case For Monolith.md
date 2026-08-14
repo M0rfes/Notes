@@ -9,7 +9,7 @@ aliases: [Modular Monolith, Monolith First]
 summary: A deep dive into why Modular Monoliths are often the best choice for maximizing development velocity and managing volatility without the "distributed system tax."
 entities: [Shopify, Ruby on Rails]
 topics: [Software Architecture, Velocity, Volatility, Modular Monolith, Microservices]
-related: [How to split a microservice, building-microservices-16-02-2026]
+related: [How to split a microservice, building-microservices-16-02-2026, "[[Coupling]]", "[[DDIA-14-03-2026|DDIA - Reliability]]"]
 ---
 
 # Case For Monolith
@@ -21,7 +21,7 @@ Instead of focusing on building a microservice, one should focus on solving the 
 ### The Velocity and Volatility Angle
 If **[[Volatility]]** (how often parts of the system change) is an issue, a code restructuring check—i.e., **[[Refactoring]]**—can unlock the tied-up volatility. Only build a microservice if no other solution works. Monoliths are not the enemy; poorly structured ones are.
 
-Avoid premature decomposition. If you don't have enough [[Domain-Driven Design|domain understanding]], you can decompose too early and end up with a service with incorrect boundaries and overlapping contexts.
+Avoid premature [[Splitting the Monolith|decomposition]]. If you don't have enough [[Domain-Driven Design|domain understanding]], you can decompose too early and end up with a service with incorrect boundaries and overlapping contexts.
 
 ## The Modular Monolith
 

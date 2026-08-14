@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-03-29
 updated: 2026-03-30
-tags: [LLM, tokenization, research, NLP]
+tags: [llm, tokenization, research, nlp]
 aliases: [Tokenization Techniques, Tokens]
 summary: A research note exploring different tokenization methods used in LLMs, including character-level, word-level, and sub-word techniques like BPE.
 entities: [ChatML, LLM, Byte Pair Encoding, BPE]

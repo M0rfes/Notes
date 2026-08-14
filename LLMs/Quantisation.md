@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-03-30
 updated: 2026-03-30
-tags: [LLM, quantization, optimization, model-compression]
+tags: [llm, quantization, optimization, model-compression]
 aliases: [Quantization, Model Compression]
 summary: Techniques for reducing the precision of model weights to decrease memory usage and speed up inference.
 entities: [BitNet, AWQ, GPTQ]

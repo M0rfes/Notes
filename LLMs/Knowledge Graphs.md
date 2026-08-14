@@ -4,12 +4,29 @@ type: research
 status: seed
 created: 2026-03-29
 updated: 2026-03-30
-tags: [LLM, GraphRAG, Knowledge-Graphs, RAG, research]
-aliases: [GraphRAG, Knowledge Graph RAG]
+tags:
+  - graph-rag
+  - knowledge-graphs
+  - rag
+  - research
+aliases:
+  - GraphRAG
+  - Knowledge Graph RAG
 summary: Combining vector search with graph databases to capture complex entity relationships missed by pure semantic search.
-entities: [Neo4j, FalkorDB, Microsoft, LightRAG]
-topics: [Entity Extraction, Relationship Mapping, Graph Databases, RAG Strategies]
-related: [LLMs/Microsoft GraphRAG.md, LLMs/LightRAG.md, LLMs/RAG.md]
+entities:
+  - Neo4j
+  - FalkorDB
+  - Microsoft
+  - LightRAG
+topics:
+  - Entity Extraction
+  - Relationship Mapping
+  - Graph Databases
+  - RAG Strategies
+related:
+  - LLMs/Microsoft GraphRAG.md
+  - LLMs/LightRAG.md
+  - LLMs/RAG.md
 ---
 
 # Knowledge Graphs (GraphRAG)

@@ -4,7 +4,7 @@ type: index
 status: active
 created: 2026-03-30
 updated: 2026-07-26
-tags: [LLM, index, research, AI]
+tags: [llm, index, research, ai]
 aliases: [Large Language Models, AI Notes]
 summary: Central hub for all notes related to Large Language Models (LLMs), including architecture, retrieval, and optimization.
 entities: []

@@ -9,7 +9,7 @@ aliases: [AI Agents, Autonomous Agents]
 summary: An exploration of what defines an AI agent, focusing on the transition from simple chatbots to autonomous systems using reasoning, tools, and frameworks like ReAct.
 entities: [LLM, ReAct, Copilot, CloudCode, Codex, Playwright, MCP]
 topics: [Reasoning Engine, Deterministic Code, Workflows, Autonomous Agents, Sub-agents]
-related: [LLMs/LLMs.md, LLMs/Router Pattern.md]
+related: [LLMs/LLMs.md, LLMs/Router Pattern.md, "[[SLM]]"]
 ---
 
 In short, an **Agent** is an [[LLM|LLM]] with [[Tool calling|tools]]. But when does an LLM with a tool go from a chatbot that can look up stuff on the web or in a database and become an agent that can automate almost anything?
@@ -23,7 +23,7 @@ When we start chaining together workflows, we get agents. Your agent can be full
 ### The ReAct Framework
 The most popular framework to build agents is to use [[ReAct]] (different than react.js). It stands for **Reason and Act**. It's when your workflow can affect the environment, observe the effects, reason about it, and decide to either stop (when the goal has been reached) or trigger another loop of ReAct.
 
-### Multi-Agent Workflows & Patterns
+### [[Communication|Multi-Agent]] Workflows & Patterns
 A less narrow agent would be something like a social media post engine. We can use two LLMs: one to generate and another to critique. 
 
 1. Our harness (deterministic code) reads content from a file containing the research outline.
@@ -47,7 +47,7 @@ For example, these agents let you create sub-agents just by using text. You can 
 
 ### Ecosystem & Frameworks
 Modern agent development relies on specialised frameworks:
-- **[[LangGraph]]**: Graph-based state management for complex, cyclical workflows.
+- **[[LangGraph]]**: [[Knowledge Graphs|Graph]]-based state management for complex, cyclical workflows.
 - **[[CrewAI]]**: Role-based agent teams (e.g., Researcher, Editor, Publisher).
 - **[[Model Context Protocol|MCP]]**: A standardised protocol for connecting agents to tools and data sources.
 

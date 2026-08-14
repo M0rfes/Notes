@@ -4,12 +4,30 @@ type: research
 status: seed
 created: 2026-03-29
 updated: 2026-03-30
-tags: [LLM, RAG, research, AI-architecture]
-aliases: [RAG, Retrieval-Augmented Generation]
+tags:
+  - rag
+  - research
+  - ai-architecture
+aliases:
+  - RAG
+  - Retrieval-Augmented Generation
 summary: Overview of RAG modalities and strategies for augmenting LLM queries with external, up-to-date, or private data.
-entities: [LLM, Vector Database, MLLM]
-topics: [Everything as Text RAG, Hybrid Multimodal RAG, Full Multimodal RAG, Chunking, Embeddings, RAG Strategies]
-related: [LLMs/Agentic RAG.md, LLMs/Knowledge Graphs.md, LLMs/Re-ranking.md, LLMs/Tokenization.md]
+entities:
+  - LLM
+  - Vector Database
+  - MLLM
+topics:
+  - Everything as Text RAG
+  - Hybrid Multimodal RAG
+  - Full Multimodal RAG
+  - Chunking
+  - Embeddings
+  - RAG Strategies
+related:
+  - LLMs/Agentic RAG.md
+  - LLMs/Knowledge Graphs.md
+  - LLMs/Re-ranking.md
+  - LLMs/Tokenization.md
 ---
 
 # Retrieval-Augmented Generation (RAG)

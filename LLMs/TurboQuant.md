@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-03-30
 updated: 2026-03-30
-tags: [LLM, quantization, performance, inference]
+tags: [llm, quantization, performance, inference]
 aliases: [TurboQuant]
 summary: A specialized inference kernel optimized for fast, quantized LLM execution.
 entities: []

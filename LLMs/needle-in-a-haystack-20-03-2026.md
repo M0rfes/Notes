@@ -4,12 +4,12 @@ type: research
 status: seed
 created: 2026-03-20
 updated: 2026-03-30
-tags: [LLM, research, long-context, retrieval, benchmark]
+tags: [llm, research, long-context, retrieval, benchmark]
 aliases: [Needle in a Haystack, Context Retrieval Bias, NIAH]
 summary: Exploration of the needle-in-a-haystack problem, highlighting context retrieval biases and architectural limitations in long-context LLMs.
 entities: []
 topics: [Primacy Bias, Recency Bias, Long-Context Retrieval, Tool Selection Bias, System Design, Lost in the Middle]
-related: [LLMs/Tokenization.md, LLMs/RAG.md]
+related: [LLMs/Tokenization.md, LLMs/RAG.md, Tool calling]
 ---
 
 # Needle-in-a-Haystack Problem
@@ -25,7 +25,7 @@ Many models show **[[Primacy Bias]]** and **[[Recency Bias]]**:
 ### Significance
 This benchmark measures **[[Long-Context Retrieval]]**, not just general intelligence. A model that performs well can locate and use evidence consistently even when surrounded by many distractors.
 
-### Impact on Agent Systems
+### Impact on [[Agents|Agent]] Systems
 The same bias can affect **[[Tool Selection]]** in agentic workflows:
 - LLMs may favor tools listed first in the system prompt.
 - Ordering of tools influences behavior unrelated to their actual utility.

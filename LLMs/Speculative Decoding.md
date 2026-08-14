@@ -4,11 +4,11 @@ type: research
 status: seed
 created: 2026-07-31
 updated: 2026-07-31
-tags: [LLM, speculative-decoding, optimization, inference, throughput]
+tags: [llm, speculative-decoding, optimization, inference, throughput]
 aliases: [Speculative Decoding]
 summary: An optimization technique using a smaller model to generate candidate tokens validated in a single pass by a larger model to increase token throughput.
 topics: [Autoregressive Generation, Draft Model, Parallel Validation]
-related: [LLMs/LLMs.md, LLMs/decoder.md, LLMs/vLLM.md]
+related: [LLMs/LLMs.md, LLMs/decoder.md, LLMs/vLLM.md, Token Caching]
 ---
 
 # Speculative Decoding
@@ -18,7 +18,7 @@ related: [LLMs/LLMs.md, LLMs/decoder.md, LLMs/vLLM.md]
 ### Context & Motivation
 - **Autoregressive Constraint**: Due to the [[LLMs/decoder|autoregressive]] nature of the [[LLMs/Encoder|transformer]] architecture, standard inference generates only one token at a time, meaning one forward pass results in one token.
 - **Resource Intensity**: Bigger models require significantly more resources and time to generate new tokens.
-- **Efficiency Gap**: In most cases, a smaller model could generate the exact same tokens with significantly fewer resources and in far less time.
+- **Efficiency Gap**: In most cases, a [[SLM|smaller model]] could generate the exact same tokens with significantly fewer resources and in far less time.
 
 ### Core Mechanism
 - **Draft Generation**: A smaller model generates $X$ new candidate tokens along with their confidence scores.

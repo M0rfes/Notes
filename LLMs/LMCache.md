@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-03-30
 updated: 2026-03-30
-tags: [LLM, caching, performance, infrastructure]
+tags: [llm, caching, performance, infrastructure]
 aliases: [LMCache]
 summary: A specialized system for sharing token caches (KV caches) across multiple requests or instances to optimize LLM performance.
 entities: []

@@ -4,11 +4,25 @@ type: reference
 status: seed
 created: 2026-07-31
 updated: 2026-07-31
-tags: [agent, langgraph, orchestration, multi-agent]
-aliases: [LangGraph]
+tags:
+  - agent
+  - langgraph
+  - orchestration
+  - multi-agent
+  - framework
+aliases:
+  - LangGraph
 summary: A graph-based framework for orchestrating stateful, multi-agent workflows with loops, branching, and state persistence.
-topics: [Graph Orchestration, State Management, Human-in-the-loop, Cyclic Workflows]
-related: [Agents/Agents.md, Agents/Communication.md, LLMs/Agentic RAG.md]
+topics:
+  - Graph Orchestration
+  - State Management
+  - Human-in-the-loop
+  - Cyclic Workflows
+related:
+  - Agents/Agents.md
+  - Agents/Communication.md
+  - LLMs/Agentic RAG.md
+  - "[[MCP]]"
 ---
 
 # LangGraph

@@ -10,6 +10,7 @@ created: 2026-08-14
 aliases:
   - Small Language Models
   - Small Language Model
+related: [Quantisation, Router Pattern, Speculative Decoding, MCP]
 ---
 
 # SLM
@@ -24,7 +25,7 @@ SLM is important and required for fields where data privacy is not an option, li
 
 ## Agentic Applications
 
-Unlike general coding harnesses like Codex, Claude Code Copilot, etc we don't need frontier [[LLM|LLMs]] for [[Agents|agentic]] applications, and according to an NVIDIA research paper: "Small Language Models are the Future of Agentic AI" ([https://arxiv.org/abs/2506.02153](https://arxiv.org/abs/2506.02153))
+Unlike general coding harnesses like Codex, Claude Code Copilot, etc we don't need frontier [[LLM|LLMs]] for [[Agents|agentic]] applications, and according to an NVIDIA research paper: "Small Language Models are the Future of [[Agentic RAG|Agentic]] AI" ([https://arxiv.org/abs/2506.02153](https://arxiv.org/abs/2506.02153))
 SLMs are a great fit for [[Agents|agentic]] applications to be deployed on the edge or on end-user devices.
 
 ## Risks of Using an External LLM Provider

@@ -30,6 +30,8 @@ related:
   - LLMs/LLMs.md
   - LLMs/Router Pattern.md
   - LLMs/needle-in-a-haystack-20-03-2026.md
+  - "[[MCP]]"
+  - "[[SLM]]"
 ---
 
 # Tool Calling

@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-07-26
 updated: 2026-07-26
-tags: [LLM, encoder, transformer, attention, NLP]
+tags: [llm, encoder, transformer, attention, nlp]
 aliases: [Encoder, Encoder-only models, Bidirectional Encoder]
 summary: Encoder layers in transformers extract features from the full input via bidirectional attention; used alone for NLU tasks or with a decoder in seq2seq models.
 entities: [BERT, Transformer, Attention Is All You Need]

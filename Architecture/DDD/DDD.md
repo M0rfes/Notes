@@ -9,7 +9,7 @@ aliases: [DDD]
 summary: A foundational overview of Domain-Driven Design core concepts including Ubiquitous Language, Aggregates, and Bounded Contexts within a microservices architecture.
 entities: [DDD, Microservices, OOP, REST]
 topics: [Ubiquitous Language, Aggregates, Bounded Context, State Machines]
-related: [building-microservices-16-02-2026, building-microservices-17-02-2026]
+related: [building-microservices-16-02-2026, building-microservices-17-02-2026, "[[Coupling]]", "[[How to split a microservice]]", "[[Splitting the Monolith]]"]
 ---
 
 ## Ubiquitous Language

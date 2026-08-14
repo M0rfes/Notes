@@ -4,11 +4,27 @@ type: research
 status: seed
 created: 2026-07-31
 updated: 2026-07-31
-tags: [LLM, agent, rag, router-pattern, routing]
-aliases: [Router Pattern, Semantic Router]
+tags:
+  - llm
+  - agent
+  - router-pattern
+  - routing
+  - rag
+aliases:
+  - Router Pattern
+  - Semantic Router
 summary: An architectural pattern where an LLM or classifier acts as a dispatcher to direct incoming queries to specialized tools, indexes, or prompt pathways.
-topics: [Query Routing, Tool Dispatching, Agentic RAG, Classifier Routing]
-related: [LLMs/Agentic RAG.md, Agents/Agents.md, LLMs/Re-ranking.md]
+topics:
+  - Query Routing
+  - Tool Dispatching
+  - Agentic RAG
+  - Classifier Routing
+related:
+  - LLMs/Agentic RAG.md
+  - Agents/Agents.md
+  - LLMs/Re-ranking.md
+  - Communication
+  - needle-in-a-haystack-20-03-2026
 ---
 
 # Router Pattern
@@ -21,6 +37,6 @@ The **[[Router Pattern]]** is an architectural pattern used in **[[Agents|AI Age
 - **Cost & Latency Optimization**: Can route simpler queries to [[SLMs]] (Small Language Models) or cache, reserving larger models for complex tasks.
 
 ### Common Approaches
-1. **LLM-based Routing**: Using function calling or structured outputs (Pydantic/JSON schema) to return a destination route.
+1. **LLM-based Routing**: Using [[Tool calling|function calling]] or structured outputs (Pydantic/JSON schema) to return a destination route.
 2. **Semantic Routing**: Computing query embeddings and using vector distance against fixed route vectors for ultra-fast, low-cost routing.
 3. **Keyword / Heuristic Routing**: Using deterministic rules or BM25 classifiers for predictable routing.

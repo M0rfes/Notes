@@ -25,6 +25,7 @@ related:
   - "[[Agents]]"
   - "[[Agentic RAG]]"
   - "[[Architecture]]"
+  - "[[Router Pattern]]"
 ---
 
 When running a [[multi-agent system]], we need a way for [[Agents|agents]] to communicate with one another. There are quite a few ways for the agents to talk/pass info to each other.
@@ -42,7 +43,7 @@ When we have an agent or an agent harness that orchestrates multiple sub-agents 
 ### Agent as Orchestrator
 - **Decomposition**: A pattern in which a single query is split into multiple subqueries, each handled in parallel. For instance, if the query requires facts from multiple sources (web search, database lookup, internal docs). [[Agentic RAG]] is an example of such a pattern.
 
-# Networks or Graph
+# Networks or [[LangGraph|Graph]]
 When we have a system with multiple agents communicating, all are free to communicate with each other without depending on a central harness. These are for fully [[autonomous agents]] where they can spawn other agents and work together to achieve a task.
 
 ### Council Pattern

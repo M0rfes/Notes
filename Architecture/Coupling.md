@@ -13,6 +13,8 @@ related:
   - Architecture/building-microservices-17-02-2026.md
   - Architecture/building-microservices-16-02-2026.md
   - Architecture/DDIA-14-03-2026.md
+  - "[[DDD]]"
+  - "[[Splitting the Monolith]]"
 ---
 
 When building [[microservices]], we want to reduce coupling between our systems. While we can't completely eliminate coupling, we can minimise it and replace avoidable couplings with acceptable ones. There are a few types of coupling.
@@ -23,7 +25,7 @@ Domain Coupling occurs when one service interacts with another because it needs 
 
 ![[Pasted image 20260414192702.png]]
 
-This type of coupling is unavoidable in a microservice system because multiple services have to work together to service a task. This is what we call [[Loose Coupling]]. But these can get out of hand in many ways; if one service is doing too much, it signals too much logic has been centralised. We might need to decompose that service by domain. Or when the service is passing too complex data structures around, that signals that we are leaking the internal implementation details between services. We should only expose what we absolutely have to and send back the least amount of data possible.
+This type of coupling is unavoidable in a microservice system because multiple services have to work together to service a task. This is what we call [[Loose Coupling]]. But these can get out of hand in many ways; if one service is doing too much, it signals too much logic has been centralised. We might need to [[How to split a microservice|decompose]] that service by domain. Or when the service is passing too complex data structures around, that signals that we are leaking the internal implementation details between services. We should only expose what we absolutely have to and send back the least amount of data possible.
 
 ## [[Temporal Coupling]]
 

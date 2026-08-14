@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-03-30
 updated: 2026-03-30
-tags: [LLM, caching, performance, inference]
+tags: [llm, caching, performance, inference]
 aliases: [Token Caching, KV Cache]
 summary: A mechanism for reusing previously computed token states to speed up LLM inference and reduce computational costs.
 entities: [vLLM, LMCache]

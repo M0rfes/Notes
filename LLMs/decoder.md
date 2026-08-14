@@ -4,7 +4,7 @@ type: research
 status: seed
 created: 2026-07-26
 updated: 2026-07-26
-tags: [LLM, decoder, transformer, attention, autoregressive]
+tags: [llm, decoder, transformer, attention, autoregressive]
 aliases: [Decoder, Decoder-only models, Causal Decoder]
 summary: Decoder layers generate tokens autoregressively with causal (left-to-right) attention; the dominant architecture for modern generative LLMs.
 entities: [GPT, Transformer, Attention Is All You Need]

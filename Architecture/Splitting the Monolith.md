@@ -23,6 +23,7 @@ related:
   - "[[How to split a microservice]]"
   - "[[Coupling]]"
   - "[[DDD]]"
+  - "[[DDIA-14-03-2026|DDIA - Reliability]]"
 ---
 
 After you have decided that [[microservices]] are the right solution for your team, the question is what to extract first. One should define a success metric before starting and clear some low-hanging fruit first, cause these can be a multi-month or years-long endeavour. 
@@ -36,7 +37,7 @@ Fundamentally, the decision about which functionality to split into a microservi
 There are a few ways to go about decomposing your [[monolith]].
 
 ## Code First
-In code-first, we extract the application code into a separate service, leaving the data in the monolith. If you can't split the code, maybe that portion can't be split into a service yet and can save a lot of pain. The one drawback is that data is usually harder to decompose than code. And could result in wasted effort if the data can't be split.
+In code-first, we extract the application code into a separate service, leaving the data in the [[Case For Monolith|monolith]]. If you can't split the code, maybe that portion can't be split into a service yet and can save a lot of pain. The one drawback is that data is usually harder to decompose than code. And could result in wasted effort if the data can't be split.
 
 ## Data First
 First, we decompose the data before splitting the code out. Decomposing the database is usually the harder part, and if the decomposition is successful, we can go ahead and split the feature out into a service.

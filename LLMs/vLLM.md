@@ -14,7 +14,7 @@ related: [LLMs/Token Caching.md, LLMs/LMCache.md, LLMs/Speculative Decoding.md]
 
 # vLLM
 
-**[[vLLM]]** is a library for high-throughput and memory-efficient **[[LLMs|LLM]]** serving and inference.
+**[[vLLM]]** is a library for high-throughput and memory-efficient **[[LLM|LLM]]** serving and inference.
 
 ### Key Innovations
 - **[[PagedAttention]]**: A new attention algorithm that manages attention keys and values ([[Token Caching|KV cache]]) more efficiently, similar to virtual memory paging in operating systems.

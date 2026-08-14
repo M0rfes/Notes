@@ -34,7 +34,7 @@ related:
 
 # Tool Calling
 
-Tool calling is an [[LLMs|LLM]] feature that lets models run code or perform tasks beyond just producing text. Tool calls are the core capability that makes [[Agents]] possible.
+Tool calling is an [[LLM|LLM]] feature that lets models run code or perform tasks beyond just producing text. Tool calls are the core capability that makes [[Agents]] possible.
 
 ## Evolution of Message Architecture
 

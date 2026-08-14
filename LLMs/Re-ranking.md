@@ -19,7 +19,7 @@ related: [LLMs/RAG.md, LLMs/Agentic RAG.md, LLMs/Router Pattern.md]
 ### What It Is
 A **two-stage retrieval process**:
 1. **Stage 1**: Perform a broad [[Vector Search]] to find a larger set of candidates (20-50+).
-2. **Stage 2**: Use a specialised **[[Ranking engine]]** to filter and rank these candidates against the query, passing only the top **K** (e.g., 5) to the [[LLMs]].
+2. **Stage 2**: Use a specialised **[[Ranking engine]]** to filter and rank these candidates against the query, passing only the top **K** (e.g., 5) to the [[LLM]].
 
 As your content in RAG grows, the chances of getting the correct content get lower, and this has a degrading effect on the model since LLMs tend to use that context and build upon it and confidently **[[hallucinate]]**, so no context is better than bad context. Since we can't keep on **increasing** the **chunk** numbers to not blow out the **[[Context Window]]**, we can rerank the fetched data and only send the chunks that rank at the top.
 

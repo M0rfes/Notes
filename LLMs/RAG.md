@@ -14,7 +14,7 @@ related: [LLMs/Agentic RAG.md, LLMs/Knowledge Graphs.md, LLMs/Re-ranking.md, LLM
 
 # Retrieval-Augmented Generation (RAG)
 
-[[RAG]] or **Retrieval-augmented generation** means augmenting the query before passing it to the [[LLMs]] for final inference. We need [[RAG]] to pass up-to-date or private data that the LLM might not have been trained on.
+[[RAG]] or **Retrieval-augmented generation** means augmenting the query before passing it to the [[LLM]] for final inference. We need [[RAG]] to pass up-to-date or private data that the LLM might not have been trained on.
 
 In traditional [[RAG]], we **[[chunk]]** our data and generate **[[embeddings]]** that are stored in a **[[Vector Database]]**. This allows us to perform a syntactic search to add context to the user query.
 

@@ -14,7 +14,7 @@ related: [LLMs/Encoder.md, LLMs/LLMs.md, LLMs/Tokenization.md, LLMs/Token Cachin
 
 # Decoder
 
-Decoders are a layer of [[LLMs]] that generate the next token in autoregressive models.
+Decoders are a layer of [[LLM]] that generate the next token in autoregressive models.
 Unlike [[Encoder|encoders]], decoders can't see the full text; when calculating attention, they can only do it from start to end, i.e., left to right for English.
 In general, decoding is the piece of software that takes the encoded format and turns it into the original format. But in LLMs, decoders are the layer that generates one token at a time. The name decoder comes from the original paper where transformers were used to translate text from language A to language B [[Encoder|encoder]] extracted features from language A, aka encoded it, and the decoder generated the language B, aka decoded the vectors.
 Decoder-only models are good for language generation tasks.

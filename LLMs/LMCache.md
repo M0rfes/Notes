@@ -14,7 +14,7 @@ related: [LLMs/Token Caching.md, LLMs/vLLM.md]
 
 # LMCache
 
-**[[LMCache]]** is a specialized framework designed to improve the performance of **[[LLMs]]** by enabling the sharing of **[[Token Caching|KV Caches]]** across multiple instances or user sessions.
+**[[LMCache]]** is a specialized framework designed to improve the performance of **[[LLM]]** by enabling the sharing of **[[Token Caching|KV Caches]]** across multiple instances or user sessions.
 
 ### Key Features
 - **Shared Cache**: Reuses pre-computed token states for common prompts across different requests.

@@ -14,7 +14,7 @@ related: [LLMs/RAG.md, LLMs/Tokenization.md, LLMs/Encoder.md, LLMs/decoder.md]
 
 # Large Language Models (LLMs) MOC
 
-A central index for exploring concepts, architectures, and strategies related to **[[LLMs]]**.
+A central index for exploring concepts, architectures, and strategies related to **[[LLM]]**.
 
 ## Core Concepts
 - **[[Tokenization]]**: Character, word, and sub-word (BPE) techniques.

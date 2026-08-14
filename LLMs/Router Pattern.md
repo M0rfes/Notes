@@ -13,7 +13,7 @@ related: [LLMs/Agentic RAG.md, Agents/Agents.md, LLMs/Re-ranking.md]
 
 # Router Pattern
 
-The **[[Router Pattern]]** is an architectural pattern used in **[[Agents|AI Agents]]** and **[[Agentic RAG]]** where a classifier or [[LLMs|LLM]] acts as a dispatcher, evaluating incoming user queries and routing them to the most appropriate execution path, index, or tool.
+The **[[Router Pattern]]** is an architectural pattern used in **[[Agents|AI Agents]]** and **[[Agentic RAG]]** where a classifier or [[LLM|LLM]] acts as a dispatcher, evaluating incoming user queries and routing them to the most appropriate execution path, index, or tool.
 
 ### Core Functions
 - **Query Classification**: Classifies intent (e.g., technical support vs. billing vs. general conversation).

@@ -14,7 +14,7 @@ related: [LLMs/decoder.md, LLMs/LLMs.md, LLMs/Tokenization.md, LLMs/RAG.md]
 
 # Encoder
 
-Encoders, when talking about [[LLMs]], are referring to the feature extracting layer rather then talking about changing the fomrat in which the information is stored. typecly encoder is the peace of software which takes data in one format and outputs it in another format. but encoder in llm refer to a layer of transformer and attention that can look at the full text and extract the features which is fead to the [[decoder]] layer that then generates the output text one token at a time. not all models use both encoder and decoder although they wear introduced togather. encoder only models are useful for tasks like fill in the balnk or sentiment analysis. encoders can look at the full text and generate attention from both direction left and right.
+Encoders, when talking about [[LLM]], are referring to the feature extracting layer rather then talking about changing the fomrat in which the information is stored. typecly encoder is the peace of software which takes data in one format and outputs it in another format. but encoder in llm refer to a layer of transformer and attention that can look at the full text and extract the features which is fead to the [[decoder]] layer that then generates the output text one token at a time. not all models use both encoder and decoder although they wear introduced togather. encoder only models are useful for tasks like fill in the balnk or sentiment analysis. encoders can look at the full text and generate attention from both direction left and right.
 
 ## Examples
 - **BERT**, **RoBERTa**: encoder-only; pretrain with masked language modeling (fill-in-the-blank), then fine-tune for classification, NER, etc.

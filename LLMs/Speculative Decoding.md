@@ -13,7 +13,7 @@ related: [LLMs/LLMs.md, LLMs/decoder.md, LLMs/vLLM.md]
 
 # Speculative Decoding
 
-**[[Speculative Decoding]]** is an optimisation technique used to increase token generation speed and token throughput in [[LLMs/LLMs|LLMs]].
+**[[Speculative Decoding]]** is an optimisation technique used to increase token generation speed and token throughput in [[LLM|LLM]].
 
 ### Context & Motivation
 - **Autoregressive Constraint**: Due to the [[LLMs/decoder|autoregressive]] nature of the [[LLMs/Encoder|transformer]] architecture, standard inference generates only one token at a time, meaning one forward pass results in one token.

@@ -14,7 +14,7 @@ related: [LLMs/Tokenization.md, LLMs/RAG.md]
 
 # Needle-in-a-Haystack Problem
 
-The **[[Needle-in-a-Haystack]]** (NIAH) problem is a benchmark test of whether an **[[LLMs|LLM]]** can find a small piece of relevant information buried inside a long context window, especially when that information is placed in the middle rather than near the beginning or end.
+The **[[Needle-in-a-Haystack]]** (NIAH) problem is a benchmark test of whether an **[[LLM|LLM]]** can find a small piece of relevant information buried inside a long context window, especially when that information is placed in the middle rather than near the beginning or end.
 
 ### Retrieval Biases
 Many models show **[[Primacy Bias]]** and **[[Recency Bias]]**:

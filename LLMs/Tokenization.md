@@ -14,7 +14,7 @@ related: [LLMs/needle-in-a-haystack-20-03-2026.md, LLMs/LLMs.md]
 
 # Tokenization
 
-There are multiple ways to approach **[[Tokenization]]** in **[[LLMs]]**:
+There are multiple ways to approach **[[Tokenization]]** in **[[LLM]]**:
 
 1. **[[Character-Level Tokenization]]**
 2. **[[Word-Level Tokenization]]**
@@ -57,7 +57,7 @@ This allows the model to clearly understand: "Who is speaking?" and "What did th
 
 ## Sub-word Tokenization
 #Sub-word-Tokenization
-This is the modern standard for [[LLMs]]. It breaks words into smaller meaningful units, balancing the efficiency of word-level tokenization with the flexibility of character-level.
+This is the modern standard for [[LLM]]. It breaks words into smaller meaningful units, balancing the efficiency of word-level tokenization with the flexibility of character-level.
 
 - **[[Byte Pair Encoding]] (BPE)**: Used by GPT models. It iteratively merges the most frequent pairs of characters or character sequences.
 - **[[WordPiece]]**: Used by BERT. Similar to BPE but uses a likelihood-based merge rule rather than just frequency.

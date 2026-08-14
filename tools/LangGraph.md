@@ -13,7 +13,7 @@ related: [Agents/Agents.md, Agents/Communication.md, LLMs/Agentic RAG.md]
 
 # LangGraph
 
-**[[LangGraph]]** is a specialized framework designed to build stateful, multi-actor applications with **[[LLMs|LLMs]]**.
+**[[LangGraph]]** is a specialized framework designed to build stateful, multi-actor applications with **[[LLM|LLMs]]**.
 
 ### Key Capabilities
 - **Cyclic & Graph Workflows**: Allows loops and conditional edges, making it ideal for [[ReAct]] loops, iterative refinement, and multi-agent debate.

@@ -12,7 +12,7 @@ topics: [Reasoning Engine, Deterministic Code, Workflows, Autonomous Agents, Sub
 related: [LLMs/LLMs.md, LLMs/Router Pattern.md]
 ---
 
-In short, an **Agent** is an [[LLMs|LLM]] with [[Tool calling|tools]]. But when does an LLM with a tool go from a chatbot that can look up stuff on the web or in a database and become an agent that can automate almost anything?
+In short, an **Agent** is an [[LLM|LLM]] with [[Tool calling|tools]]. But when does an LLM with a tool go from a chatbot that can look up stuff on the web or in a database and become an agent that can automate almost anything?
 
 It all starts from a workflow where we use the LLM as a **reasoning agent**, and most of the work is done by deterministic code.
 

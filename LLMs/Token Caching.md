@@ -14,7 +14,7 @@ related: [LLMs/LMCache.md, LLMs/vLLM.md, LLMs/Tokenization.md]
 
 # Token Caching
 
-**Token Caching** (often referring to **[[KV Cache]]** or **[[Prompt Caching]]**) is a technique used to speed up **[[LLMs|LLM]]** inference by storing the keys and values of previously processed tokens.
+**Token Caching** (often referring to **[[KV Cache]]** or **[[Prompt Caching]]**) is a technique used to speed up **[[LLM|LLM]]** inference by storing the keys and values of previously processed tokens.
 
 ### Key Concepts
 - **[[KV Cache]]**: Stores the Key and Value vectors for each token in the context window to avoid recomputing them for every new token generated.

@@ -4,11 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "de2887932a499223",
+        "id": "3ae3b95463a2db24",
         "type": "tabs",
         "children": [
           {
-            "id": "5cf5dee5171685c5",
+            "id": "3e353250a38c53d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLMs/LLM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "LLM"
+            }
+          },
+          {
+            "id": "bd0a19434cda2b81",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,8 +40,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "dfb154cd8b2d9009",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SLM/SLM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SLM"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -37,7 +86,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -49,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mcp",
+                "query": "tag:#LLM",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,9 +238,24 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "5cf5dee5171685c5",
+  "active": "f2968546cba20459",
   "lastOpenFiles": [
-    "LLMs/LLMs.md",
+    "SLM/SLM.md",
+    "SLM",
+    "graphify-out/cache/stat-index.json",
+    "graphify-out/cache/semantic-deep/p5cd2853e183b",
+    "graphify-out/cache/semantic-deep",
+    "graphify-out/cache/ast/v0.9.34/ed551cd254a065302ce2103e6aa0377a7013b89767ea2445e86cc449baf7fbb1.json",
+    "graphify-out/cache/ast/v0.9.34/29e2225af1b045261a3ec8d7a3cf98a025c6c30f32f5ed98517a6d28248b9aaa.json",
+    "graphify-out/cache/ast/v0.9.34/cd089fadeb54219350e6694afa310d71377b6b7a285589c933100b271d6e0fbd.json",
+    "graphify-out/cache/ast/v0.9.34",
+    "graphify-out/cache/ast",
+    "graphify-out/cache",
+    "LLMs/MCP.md",
+    "LLMs/LLM.md",
+    "LLMs/Harness.md",
+    "Agents/Tool calling.md",
+    "Agents/Agents.md",
     "LLMs/Encoder.md",
     "Untitled.canvas",
     "LLMs/Knowledge Graphs.md",
@@ -197,8 +263,6 @@
     "Architecture/DDIA-14-03-2026.md",
     "LLMs/Speculative Decoding.md",
     "LLMs/decoder.md",
-    "Agents/Agents.md",
-    "Agents/Tool calling.md",
     "Agents/Communication.md",
     "Architecture/Case For Monolith/Case For Monolith.md",
     "Architecture/DDD/DDD.md",
@@ -207,16 +271,6 @@
     "images/Pasted image 20260414192702.png",
     "LLMs/needle-in-a-haystack-20-03-2026.md",
     "gemini-scribe/skills/linkedin-content-system/SKILL.md",
-    "list/lib/python3.11/site-packages/_virtualenv.py",
-    "list/lib/python3.11/site-packages/_virtualenv.pth",
-    "list/bin/python3.11",
-    "list/bin/python",
-    "list/bin/python3",
-    "list/lib/python3.11/site-packages",
-    "list/bin/pydoc.bat",
-    "list/bin/deactivate.bat",
-    "list/bin/activate_this.py",
-    "list/bin/activate.ps1",
     "gemini-scribe/Prompts/linkedin-orchestrator.md",
     "GEMINI.md",
     "gemini-scribe/skills/obsidian-cli/SKILL.md",
@@ -226,8 +280,6 @@
     "posts/2026-04-26/monolith-decomposition.png",
     "Architecture/Splitting the Monolith.md",
     "Architecture/How to split a microservice.md",
-    "gemini-scribe/AGENTS.md",
-    "posts/2026-04-20/linkedin.md",
     "posts/2026-04-20/monolith-patterns.png",
     "posts/2026-04-20/monolith-velocity-volatility.png",
     "images/Pasted image 20260420062958.png",

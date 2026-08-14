@@ -11,10 +11,24 @@
             "id": "5cf5dee5171685c5",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "SLM/SLM.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "SLM"
             }
           }
         ]
@@ -76,11 +90,12 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "notebook-navigator"
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -179,10 +194,10 @@
   },
   "active": "5cf5dee5171685c5",
   "lastOpenFiles": [
+    "LLMs/LLM.md",
     "SLM/SLM.md",
     "SLM",
     "LLMs/MCP.md",
-    "LLMs/LLM.md",
     "LLMs/LLMs.md",
     "LLMs/Encoder.md",
     "Untitled.canvas",

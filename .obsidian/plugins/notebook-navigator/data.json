@@ -188,7 +188,7 @@
   "propertySortOrder": "alpha-asc",
   "showAllPropertiesFolder": true,
   "defaultListMode": "standard",
-  "includeDescendantNotes": false,
+  "includeDescendantNotes": true,
   "defaultFolderSort": "modified-desc",
   "propertySortKey": "",
   "propertySortSecondary": "title",
@@ -445,7 +445,12 @@
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderTreeSortOverrides": {},
-  "folderAppearances": {},
+  "folderAppearances": {
+    "Books/rust/Rust Atomics and Locks": {
+      "groupBy": "folder",
+      "notePropertyType": "wordCount"
+    }
+  },
   "tagIcons": {},
   "tagColors": {},
   "tagBackgroundColors": {},

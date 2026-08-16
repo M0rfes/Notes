@@ -11,13 +11,38 @@
             "id": "afd4db351d161bce",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/rust/Rust Atomics and Locks/Basics of Rust Concurrency.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Basics of Rust Concurrency"
+            }
+          },
+          {
+            "id": "0e91af8d05005246",
+            "type": "leaf",
+            "state": {
               "type": "graph",
               "state": {},
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -37,7 +62,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -81,11 +108,11 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 308.88671875
   },
   "right": {
     "id": "fbdbb7762ae25dc3",
@@ -101,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/rust/Rust Atomics and Locks/Atomics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 513.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -174,8 +202,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "afd4db351d161bce",
+  "active": "0e91af8d05005246",
   "lastOpenFiles": [
+    "Books/rust/Rust Atomics and Locks/Basics of Rust Concurrency.md",
+    "Books/rust/Rust Atomics and Locks/Atomics.md",
+    "Untitled.canvas",
+    "Books/rust/Rust Atomics and Locks/Atomics",
+    "Architecture/How to split a microservice.md",
+    "Books/rust/Write Powerful Rust Macros",
+    "Books/rust/Rust Atomics and Locks",
+    "Books",
+    "Books/rust",
     "LLMs/Router Pattern.md",
     "LLMs/Microsoft graphRag.md",
     "LLMs/LightRAG.md",
@@ -194,27 +231,17 @@
     "LLMs/MCP.md",
     "LLMs/LLMs.md",
     "LLMs/Encoder.md",
-    "Untitled.canvas",
     "LLMs/vLLM.md",
     "LLMs/Speculative Decoding.md",
     "LLMs/decoder.md",
     "Agents/Tool calling.md",
     "Architecture/Case For Monolith/Case For Monolith.md",
-    "Architecture/DDD/DDD.md",
-    "Daily Notes/2026-03-30.md",
     "images/Pasted image 20260414194252.png",
     "images/Pasted image 20260414192702.png",
-    "LLMs/needle-in-a-haystack-20-03-2026.md",
-    "gemini-scribe/skills/linkedin-content-system/SKILL.md",
     "list/lib/python3.11/site-packages/_virtualenv.py",
     "list/lib/python3.11/site-packages/_virtualenv.pth",
     "list/bin/python3.11",
     "list/bin/python",
-    "list/bin/python3",
-    "list/lib/python3.11/site-packages",
-    "list/bin/pydoc.bat",
-    "list/bin/deactivate.bat",
-    "list/bin/activate_this.py",
     "posts/2026-04-26/monolith-decomposition.png",
     "posts/2026-04-20/monolith-patterns.png",
     "posts/2026-04-20/monolith-velocity-volatility.png",

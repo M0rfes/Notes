@@ -38,7 +38,7 @@ Sometimes, the data and the rules/policies governing it dictate how to decompose
 - **Privacy:** We can simplify the audit process and reduce risk by isolating [[PII]] (Personally Identifiable Information) data into dedicated services.
 
 ## Technology & Runtime
-We can decompose services by their technical requirements or runtimes. For example, if we are using [[Rust]], [[C++]], or [[C]] For performance-critical use cases, we might decompose those into separate services to isolate resource-heavy operations or specific hardware requirements.
+We can decompose services by their technical requirements or runtimes. For example, if we are using [[Basics of Rust Concurrency |Rust]], [[C++]], or [[C]] For performance-critical use cases, we might decompose those into separate services to isolate resource-heavy operations or specific hardware requirements.
 
 ## Organizational Structure
 When designing a system, we must address the organisational structure (often referred to as **[[Conway's Law]]**). A service owned by multiple teams often fails to yield the desired outcomes. 

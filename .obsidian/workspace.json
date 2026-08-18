@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "afd4db351d161bce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/rust/Rust Atomics and Locks/Basics of Rust Concurrency.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Basics of Rust Concurrency"
-            }
-          },
-          {
             "id": "0e91af8d05005246",
             "type": "leaf",
             "state": {
@@ -41,8 +17,7 @@
               "title": "Graph view"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -206,9 +181,12 @@
   "lastOpenFiles": [
     "Books/rust/Rust Atomics and Locks/Basics of Rust Concurrency.md",
     "Books/rust/Rust Atomics and Locks/Atomics.md",
+    "SLM/SLM.md",
+    "Architecture/How to split a microservice.md",
+    "Untitled.base",
+    "Architecture/Coupling.md",
     "Untitled.canvas",
     "Books/rust/Rust Atomics and Locks/Atomics",
-    "Architecture/How to split a microservice.md",
     "Books/rust/Write Powerful Rust Macros",
     "Books/rust/Rust Atomics and Locks",
     "Books",
@@ -225,7 +203,6 @@
     "Architecture/DDIA-14-03-2026.md",
     "Agents/Agents.md",
     "LLMs/Quantisation.md",
-    "SLM/SLM.md",
     "LLMs/LLM.md",
     "SLM",
     "LLMs/MCP.md",
@@ -235,13 +212,11 @@
     "LLMs/Speculative Decoding.md",
     "LLMs/decoder.md",
     "Agents/Tool calling.md",
-    "Architecture/Case For Monolith/Case For Monolith.md",
     "images/Pasted image 20260414194252.png",
     "images/Pasted image 20260414192702.png",
     "list/lib/python3.11/site-packages/_virtualenv.py",
     "list/lib/python3.11/site-packages/_virtualenv.pth",
     "list/bin/python3.11",
-    "list/bin/python",
     "posts/2026-04-26/monolith-decomposition.png",
     "posts/2026-04-20/monolith-patterns.png",
     "posts/2026-04-20/monolith-velocity-volatility.png",

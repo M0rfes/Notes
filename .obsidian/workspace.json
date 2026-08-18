@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "27f9b74581a94d71",
+        "id": "335060db6501ea21",
         "type": "tabs",
         "children": [
           {
-            "id": "0e91af8d05005246",
+            "id": "5dfeee15763940d6",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -37,9 +37,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
-                "showSearch": false,
-                "searchQuery": ""
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -87,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.88671875
+    "width": 342.5
   },
   "right": {
     "id": "fbdbb7762ae25dc3",
@@ -103,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/rust/Rust Atomics and Locks/Atomics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +155,8 @@
               "title": "Outline"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -177,46 +175,47 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "0e91af8d05005246",
+  "active": "5dfeee15763940d6",
   "lastOpenFiles": [
     "Books/rust/Rust Atomics and Locks/Basics of Rust Concurrency.md",
+    "Books/rust/Rust Atomics and Locks/Rust Rc.md",
+    "Coding/Concurrency/Reference Counting.md",
+    "Coding/Concurrency/Interior Mutability.md",
+    "Coding/Concurrency/Static Lifetime.md",
     "Books/rust/Rust Atomics and Locks/Atomics.md",
-    "SLM/SLM.md",
-    "Architecture/How to split a microservice.md",
+    "Coding/Concurrency/Reader-Writer Lock.md",
+    "Coding/Concurrency/Race Conditions.md",
+    "Coding/Concurrency/Memory Ordering.md",
+    "Coding/Concurrency/Thread Joining.md",
+    "Coding/Concurrency/Threads.md",
+    "Books/rust/Rust Atomics and Locks/Rust Threads.md",
+    "Books/rust/Rust Atomics and Locks/Rust Lazy Initialization.md",
+    "Books/rust/Rust Atomics and Locks/Rust Memory Ordering.md",
+    "Books/rust/Rust Atomics and Locks/Rust Atomics.md",
+    "Books/rust/Rust Atomics and Locks/Rust Condition Variables.md",
+    "Books/rust/Rust Atomics and Locks/Rust Thread Parking.md",
+    "Books/rust/Rust Atomics and Locks/Rust Lock Poisoning.md",
+    "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
+    "Books/rust/Rust Atomics and Locks/Rust Mutex.md",
+    "Books/rust/Rust Atomics and Locks/Rust Send and Sync.md",
+    "Books/rust/Rust Atomics and Locks/Rust Cell and RefCell.md",
+    "Books/rust/Rust Atomics and Locks/Rust Arc.md",
+    "Books/rust/Rust Atomics and Locks/Rust Statics and Leaking.md",
+    "Books/rust/Rust Atomics and Locks/Rust Scoped Threads.md",
+    "Coding/Concurrency/Lazy Initialization.md",
+    "Coding/Concurrency",
+    "Untitled 2.base",
+    "Untitled 1.base",
     "Untitled.base",
-    "Architecture/Coupling.md",
-    "Untitled.canvas",
-    "Books/rust/Rust Atomics and Locks/Atomics",
-    "Books/rust/Write Powerful Rust Macros",
     "Books/rust/Rust Atomics and Locks",
-    "Books",
     "Books/rust",
-    "LLMs/Router Pattern.md",
-    "LLMs/Microsoft graphRag.md",
-    "LLMs/LightRAG.md",
-    "LLMs/Knowledge Graphs.md",
-    "LLMs/Agentic RAG.md",
-    "LLMs/RAG.md",
-    "LLMs/Re-ranking.md",
-    "tools/LangGraph.md",
-    "Agents/Communication.md",
-    "Architecture/DDIA-14-03-2026.md",
-    "Agents/Agents.md",
-    "LLMs/Quantisation.md",
-    "LLMs/LLM.md",
+    "Books",
     "SLM",
-    "LLMs/MCP.md",
-    "LLMs/LLMs.md",
-    "LLMs/Encoder.md",
-    "LLMs/vLLM.md",
-    "LLMs/Speculative Decoding.md",
-    "LLMs/decoder.md",
-    "Agents/Tool calling.md",
+    "Untitled.canvas",
     "images/Pasted image 20260414194252.png",
     "images/Pasted image 20260414192702.png",
     "list/lib/python3.11/site-packages/_virtualenv.py",
     "list/lib/python3.11/site-packages/_virtualenv.pth",
-    "list/bin/python3.11",
     "posts/2026-04-26/monolith-decomposition.png",
     "posts/2026-04-20/monolith-patterns.png",
     "posts/2026-04-20/monolith-velocity-volatility.png",

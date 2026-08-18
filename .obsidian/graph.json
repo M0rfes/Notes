@@ -11,7 +11,7 @@
       "query": "tag:#LLM  ",
       "color": {
         "a": 1,
-        "rgb": 14701138
+        "rgb": 14736466
       }
     },
     {
@@ -67,7 +67,14 @@
       "query": "tag:#rust  ",
       "color": {
         "a": 1,
-        "rgb": 14701233
+        "rgb": 13517355
+      }
+    },
+    {
+      "query": "tag:#concurrency ",
+      "color": {
+        "a": 1,
+        "rgb": 15304326
       }
     }
   ],
@@ -81,6 +88,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.315162546126888,
+  "scale": 1.2375585172340209,
   "close": true
 }

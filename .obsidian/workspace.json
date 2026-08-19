@@ -16,8 +16,33 @@
               "icon": "lucide-git-fork",
               "title": "Graph view"
             }
+          },
+          {
+            "id": "78a1484214b764db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Rust RwLock"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -80,8 +105,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,6 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Rust RwLock"
             }
           },
           {
@@ -119,11 +144,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Rust RwLock"
             }
           },
           {
@@ -147,12 +173,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Rust RwLock"
             }
           }
         ],
@@ -175,14 +202,17 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "5dfeee15763940d6",
+  "active": "78a1484214b764db",
   "lastOpenFiles": [
     "Books/rust/Rust Atomics and Locks/Basics of Rust Concurrency.md",
+    "Books/rust/Rust Atomics and Locks/Atomics.md",
+    "Thoughts/Defensive Programming.md",
+    "Thoughts",
+    "Books/rust/Rust Atomics and Locks/Thoughts",
     "Books/rust/Rust Atomics and Locks/Rust Rc.md",
     "Coding/Concurrency/Reference Counting.md",
     "Coding/Concurrency/Interior Mutability.md",
     "Coding/Concurrency/Static Lifetime.md",
-    "Books/rust/Rust Atomics and Locks/Atomics.md",
     "Coding/Concurrency/Reader-Writer Lock.md",
     "Coding/Concurrency/Race Conditions.md",
     "Coding/Concurrency/Memory Ordering.md",
@@ -202,7 +232,6 @@
     "Books/rust/Rust Atomics and Locks/Rust Arc.md",
     "Books/rust/Rust Atomics and Locks/Rust Statics and Leaking.md",
     "Books/rust/Rust Atomics and Locks/Rust Scoped Threads.md",
-    "Coding/Concurrency/Lazy Initialization.md",
     "Coding/Concurrency",
     "Untitled 2.base",
     "Untitled 1.base",
@@ -214,8 +243,6 @@
     "Untitled.canvas",
     "images/Pasted image 20260414194252.png",
     "images/Pasted image 20260414192702.png",
-    "list/lib/python3.11/site-packages/_virtualenv.py",
-    "list/lib/python3.11/site-packages/_virtualenv.pth",
     "posts/2026-04-26/monolith-decomposition.png",
     "posts/2026-04-20/monolith-patterns.png",
     "posts/2026-04-20/monolith-velocity-volatility.png",

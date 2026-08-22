@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "eat the frog",
+                "query": "Financial Statements Overview",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,8 +155,7 @@
               "title": "Notebook Navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -250,7 +249,7 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "fdb25a140a5f1b89",
+  "active": "f2968546cba20459",
   "lastOpenFiles": [
     "Productivity/eat-the-frog-14-02-2026.md",
     "Architecture/DDIA-14-03-2026.md",

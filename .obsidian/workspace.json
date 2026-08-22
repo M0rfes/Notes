@@ -102,30 +102,6 @@
               "icon": "lucide-file",
               "title": "Function Abstration"
             }
-          },
-          {
-            "id": "78a1484214b764db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Rust RwLock"
-            }
           }
         ],
         "currentTab": 3
@@ -223,7 +199,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rust RwLock"
+              "title": "Backlinks"
             }
           },
           {
@@ -232,12 +208,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Rust RwLock"
+              "title": "Outgoing links"
             }
           },
           {
@@ -261,13 +236,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/rust/Rust Atomics and Locks/Rust RwLock.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Rust RwLock"
+              "title": "Outline"
             }
           }
         ]
@@ -291,6 +265,7 @@
   },
   "active": "fdb25a140a5f1b89",
   "lastOpenFiles": [
+    "Thoughts/Defensive Programming.md",
     "Coding/Concurrency/Latency vs Throughput.md",
     "Thoughts/Function Abstration.md",
     "Thoughts",
@@ -322,7 +297,6 @@
     "Coding/Concurrency/Interior Mutability.md",
     "Coding/Concurrency/Condition Variables.md",
     "Coding/Concurrency/Atomic Reference Counting.md",
-    "Coding/Concurrency/Atomic Operations.md",
     "Coding/Concurrency",
     "Books/rust/Rust Atomics and Locks/Atomics",
     "Books/rust/Write Powerful Rust Macros",

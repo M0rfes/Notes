@@ -1,5 +1,5 @@
 ---
-title: Function Abstraction and Local Reasoning
+title: Function Abstraction
 type: thought
 status: seed
 created: 2026-08-22

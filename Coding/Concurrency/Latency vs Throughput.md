@@ -1,5 +1,5 @@
 ---
-title: Latency vs Throughput
+title: Latency Throughput
 type: concept
 status: seed
 created: 2026-08-21

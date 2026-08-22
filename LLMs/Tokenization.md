@@ -1,5 +1,5 @@
 ---
-title: Tokenization in LLMs
+title: Tokenization
 type: research
 status: seed
 created: 2026-03-29

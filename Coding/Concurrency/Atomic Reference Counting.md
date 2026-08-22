@@ -1,5 +1,5 @@
 ---
-title: Atomic Reference Counting
+title: Atomic Refcounting
 type: concept
 status: seed
 created: 2026-08-18

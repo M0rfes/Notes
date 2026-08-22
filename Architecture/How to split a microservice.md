@@ -1,5 +1,5 @@
 ---
-title: "Strategies for Splitting Microservices"
+title: Splitting Microservices
 type: research
 status: seed
 created: 2026-04-19

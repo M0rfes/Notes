@@ -1,5 +1,5 @@
 ---
-title: Splitting the Monolith
+title: Splitting Monolith
 type: research
 status: budding
 created: 2026-04-26

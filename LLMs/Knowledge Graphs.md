@@ -1,5 +1,5 @@
 ---
-title: Knowledge Graphs in RAG (GraphRAG)
+title: Knowledge Graphs
 type: research
 status: seed
 created: 2026-03-29

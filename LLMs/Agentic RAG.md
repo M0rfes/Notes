@@ -1,5 +1,5 @@
 ---
-title: Agentic Retrieval-Augmented Generation (Agentic RAG)
+title: Agentic RAG
 type: research
 status: seed
 created: 2026-03-29

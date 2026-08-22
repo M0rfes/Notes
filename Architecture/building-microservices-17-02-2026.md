@@ -1,5 +1,5 @@
 ---
-title: //Building Microservices - Chapter 2 (Part 2)
+title: Coupling Cohesion
 type: study-summary
 status: seed
 created: 2026-02-17

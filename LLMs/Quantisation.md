@@ -1,5 +1,5 @@
 ---
-title: Quantization in LLMs
+title: Quantization
 type: research
 status: seed
 created: 2026-03-30

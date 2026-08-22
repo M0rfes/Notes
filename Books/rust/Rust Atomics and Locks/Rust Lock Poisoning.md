@@ -1,5 +1,5 @@
 ---
-title: Rust Lock Poisoning
+title: Lock Poisoning
 type: implementation
 status: seed
 created: 2026-08-18

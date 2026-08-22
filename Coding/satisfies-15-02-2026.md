@@ -1,14 +1,24 @@
 ---
-title: //TypeScript Satisfies Operator & Exhaustive Matching
+title: TypeScript Satisfies
 type: code-example
 status: seed
 created: 2026-02-15
-updated: 2026-03-29
-tags: [typescript, coding, pattern-matching]
-aliases: [TypeScript Satisfies, Exhaustive Switch]
+updated: 2026-08-22
+tags:
+  - typescript
+  - coding
+  - pattern-matching
+aliases:
+  - TypeScript Satisfies
+  - Exhaustive Switch
 summary: Demonstration of using the TypeScript 'satisfies' operator with switch statements to achieve exhaustive pattern matching.
-entities: [TypeScript]
-topics: [Satisfies Operator, Exhaustive Matching, Switch Statements, Type Safety]
+entities:
+  - TypeScript
+topics:
+  - Satisfies Operator
+  - Exhaustive Matching
+  - Switch Statements
+  - Type Safety
 related: []
 ---
 

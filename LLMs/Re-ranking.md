@@ -1,5 +1,5 @@
 ---
-title: Re-ranking Strategy in RAG
+title: Re-ranking
 type: research
 status: seed
 created: 2026-03-29

@@ -1,5 +1,5 @@
 ---
-title: LLMs MOC
+title: LLMs
 type: index
 status: active
 created: 2026-03-30

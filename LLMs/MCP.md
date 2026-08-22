@@ -1,5 +1,5 @@
 ---
-title: Model Context Protocol (MCP)
+title: MCP
 type: research
 status: seed
 created: 2026-08-02

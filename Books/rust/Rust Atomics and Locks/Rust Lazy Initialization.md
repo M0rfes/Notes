@@ -1,5 +1,5 @@
 ---
-title: Rust Lazy Initialization
+title: Lazy Initialization
 type: implementation
 status: seed
 created: 2026-08-18

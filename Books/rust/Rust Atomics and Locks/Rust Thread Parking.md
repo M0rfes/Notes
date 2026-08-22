@@ -1,5 +1,5 @@
 ---
-title: Rust Thread Parking
+title: Thread Parking
 type: implementation
 status: seed
 created: 2026-08-18

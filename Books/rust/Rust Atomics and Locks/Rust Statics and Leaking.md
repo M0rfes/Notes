@@ -1,5 +1,5 @@
 ---
-title: Rust Statics and Leaking
+title: Rust Statics
 type: implementation
 status: seed
 created: 2026-08-18

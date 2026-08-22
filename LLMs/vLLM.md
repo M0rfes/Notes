@@ -1,5 +1,5 @@
 ---
-title: "vLLM: High-Throughput LLM Serving"
+title: vLLM
 type: research
 status: seed
 created: 2026-03-30

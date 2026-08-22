@@ -1,5 +1,5 @@
 ---
-title: Retrieval-Augmented Generation (RAG)
+title: RAG
 type: research
 status: seed
 created: 2026-03-29

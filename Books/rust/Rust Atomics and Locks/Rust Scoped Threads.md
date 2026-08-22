@@ -1,5 +1,5 @@
 ---
-title: Rust Scoped Threads
+title: Scoped Threads
 type: implementation
 status: seed
 created: 2026-08-18

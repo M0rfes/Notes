@@ -1,5 +1,5 @@
 ---
-title: Rust Send and Sync
+title: Send Sync
 type: implementation
 status: seed
 created: 2026-08-18

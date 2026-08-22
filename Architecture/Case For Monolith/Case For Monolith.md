@@ -1,5 +1,5 @@
 ---
-title: Case For Monolith
+title: Modular Monolith
 type: research
 status: budding
 created: 2026-04-20

@@ -1,5 +1,5 @@
 ---
-title: Rust Memory Ordering
+title: Memory Ordering
 type: implementation
 status: seed
 created: 2026-08-18

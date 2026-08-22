@@ -1,4 +1,5 @@
 ---
+title: SLM
 tags:
   - slm
   - llm

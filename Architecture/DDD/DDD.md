@@ -1,5 +1,5 @@
 ---
-title: Domain-Driven Design (DDD) Fundamentals
+title: Domain-Driven Design
 type: research
 status: seed
 created: 2026-04-18

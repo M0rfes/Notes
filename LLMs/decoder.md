@@ -1,5 +1,5 @@
 ---
-title: Decoder (LLM)
+title: Decoder
 type: research
 status: seed
 created: 2026-07-26

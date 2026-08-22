@@ -1,5 +1,5 @@
 ---
-title: Needle-in-a-Haystack Problem in LLMs
+title: Needle Haystack
 type: research
 status: seed
 created: 2026-03-20

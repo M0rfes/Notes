@@ -1,5 +1,5 @@
 ---
-title: Send and Sync
+title: Send Sync
 type: concept
 status: seed
 created: 2026-08-18

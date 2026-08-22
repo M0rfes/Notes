@@ -1,5 +1,5 @@
 ---
-title: Reader-Writer Lock
+title: RwLock
 type: concept
 status: seed
 created: 2026-08-18

@@ -1,5 +1,5 @@
 ---
-title: Eat That Frog! - Productivity Summary
+title: Eat Frog
 type: book-summary
 status: seed
 created: 2026-02-14

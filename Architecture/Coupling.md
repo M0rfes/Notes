@@ -1,5 +1,5 @@
 ---
-title: "Coupling in Microservices"
+title: Coupling
 type: reference
 status: seed
 created: 2026-04-15

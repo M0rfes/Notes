@@ -1,5 +1,5 @@
 ---
-title: Agent Communication Patterns
+title: Agent Communication
 type: research
 status: seed
 created: 2026-04-11

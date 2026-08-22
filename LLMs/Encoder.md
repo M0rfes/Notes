@@ -1,5 +1,5 @@
 ---
-title: Encoder (LLM)
+title: Encoder
 type: research
 status: seed
 created: 2026-07-26

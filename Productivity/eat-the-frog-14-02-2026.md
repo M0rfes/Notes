@@ -1,14 +1,25 @@
 ---
-title: //Eat That Frog! - Productivity Summary
+title: Eat That Frog! - Productivity Summary
 type: book-summary
 status: seed
 created: 2026-02-14
-updated: 2026-03-29
-tags: [productivity, focus, time-management]
-aliases: [Eat the Frog Summary, 80/20 Rule]
+updated: 2026-08-22
+tags:
+  - productivity
+  - focus
+  - time-management
+aliases:
+  - Eat the Frog Summary
+  - 80/20 Rule
 summary: Core concepts and actionable steps from Brian Tracy's 'Eat That Frog!' for overcoming procrastination and focusing on high-value tasks.
-entities: [Brian Tracy]
-topics: [7-Step Plan, Planning, 80/20 Rule, Law of Forced Efficiency, Procrastination]
+entities:
+  - Brian Tracy
+topics:
+  - 7-Step Plan
+  - Planning
+  - 80/20 Rule
+  - Law of Forced Efficiency
+  - Procrastination
 related: []
 ---
 

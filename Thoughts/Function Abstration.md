@@ -40,7 +40,7 @@ For example, we have a function that grants product licenses:
 
 And we realised that the function is over 100 lines and none of it makes any sense; there are a bunch of `if` checks to create different resources.
 
-These examples are kind of poor, but I can't give a simple one because the kind of 300-line function I am talking about (to maintain DRY, or simply because no other flow uses these steps so no need to refactor) happens over a long stretch of time.
+These examples are kind of poor, but I can't give a simple one because the 300-line function I am talking about (to maintain DRY, or simply because no other flow uses these steps, so there's no need to refactor) spans a long stretch of time.
 
 ## Refactoring for Local Reasoning
 

@@ -68,7 +68,8 @@ Every file created in `Teach/<Topic>/` must behave as part of an interconnected 
    - Use formatted syntax-highlighted code blocks (` ```rust `, ` ```python `, etc.).
 
 5. **YAML Frontmatter**:
-   - Every file must start with valid YAML frontmatter specifying `title`, `type` (`teach-moc`, `lesson`, `reference`, `learning-record`, `mission`, `glossary`, `notes`), `topic`, `created`, `tags`, and `aliases`.
+   - Every file must start with valid YAML frontmatter specifying `title`, `type` (`teach-moc`, `lesson`, `reference`, `learning-record`, `mission`, `glossary`, `notes`), `topic`, `created`, `updated`, `tags`, and `aliases`.
+   - Always include and maintain `updated: YYYY-MM-DD` (matching `created: YYYY-MM-DD` upon creation, and updated whenever modifying existing notes). 
 
 6. **Interactive Checklists**:
    - Use GitHub-style task checkboxes (`- [ ]`) for hands-on exercises and step-by-step application tasks.

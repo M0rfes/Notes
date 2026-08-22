@@ -12,6 +12,7 @@ title: "LR-{NNNN}: {Short Title of What Was Established}"
 type: learning-record
 topic: "{Topic}"
 created: YYYY-MM-DD
+updated: YYYY-MM-DD
 status: active # or "superseded by [[0002-{slug}|LR-0002]]"
 tags:
   - teach/{topic-slug}

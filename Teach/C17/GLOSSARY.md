@@ -3,6 +3,7 @@ title: "C17 Glossary"
 type: glossary
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 tags:
   - teach/c17
   - glossary

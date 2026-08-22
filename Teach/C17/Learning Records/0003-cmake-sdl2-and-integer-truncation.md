@@ -3,6 +3,7 @@ title: "LR-0003: CMake SDL2 Resolution & Integer Precision Diagnostics"
 type: learning-record
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 status: active
 tags:
   - teach/c17

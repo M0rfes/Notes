@@ -3,6 +3,7 @@ title: "Mission: C17 Systems Mastery via CHIP-8 Emulator"
 type: mission
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 tags:
   - teach/c17
   - mission

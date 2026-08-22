@@ -3,6 +3,7 @@ title: "Modern C17 Toolchain and CMake Reference"
 type: reference
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 tags:
   - teach/c17
   - reference

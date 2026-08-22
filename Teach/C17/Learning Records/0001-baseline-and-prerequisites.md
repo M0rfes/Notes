@@ -3,6 +3,7 @@ title: "LR-0001: Learner Background & C17 Baseline"
 type: learning-record
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 status: active
 tags:
   - teach/c17

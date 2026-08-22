@@ -10,6 +10,7 @@ title: "{Topic} Hub"
 type: teach-moc
 topic: "{Topic}"
 created: YYYY-MM-DD
+updated: YYYY-MM-DD
 tags:
   - teach/{topic-slug}
   - moc

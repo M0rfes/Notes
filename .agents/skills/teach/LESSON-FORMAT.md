@@ -12,6 +12,7 @@ title: "Lesson {NNNN}: {Lesson Title}"
 type: lesson
 topic: "{Topic}"
 created: YYYY-MM-DD
+updated: YYYY-MM-DD
 tags:
   - teach/{topic-slug}
   - lesson

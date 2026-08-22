@@ -3,6 +3,7 @@ title: "Lesson 0001: ISO C17 Standards, Compiler Diagnostics & CMake with SDL2"
 type: lesson
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 tags:
   - teach/c17
   - lesson

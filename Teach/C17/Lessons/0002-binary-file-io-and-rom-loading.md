@@ -3,6 +3,7 @@ title: "Lesson 0002: Safe Binary File I/O & ROM Loading into Memory at 0x200"
 type: lesson
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 tags:
   - teach/c17
   - lesson

@@ -3,6 +3,7 @@ title: "Standard I/O & Binary File Streams in C17"
 type: reference
 topic: "C17"
 created: 2026-08-22
+updated: 2026-08-22
 tags:
   - teach/c17
   - reference

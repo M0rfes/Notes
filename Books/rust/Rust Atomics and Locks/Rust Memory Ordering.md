@@ -16,7 +16,7 @@ category: Books/Rust
 
 # Memory Ordering in Rust
 
-![[Memory Ordering]]
+![[Coding/Concurrency/Memory Ordering]]
 
 All atomic operations take in an `Ordering` parameter `std::sync::atomic::Ordering`, which controls what guarantees we get about the relative ordering of operations.
 

@@ -28,9 +28,7 @@ related:
 
 After you have decided that [[microservices]] are the right solution for your team, the question is what to extract first. One should define a success metric before starting and clear some low-hanging fruit first, cause these can be a multi-month or years-long endeavour. 
 
-```text
 Want to scale the application? Functionality that currently constrains the system’s ability to handle load will be high on the list. Want to improve time to market? Examine the system’s [[Volatility]] to identify the functionality that changes most frequently, and determine whether it would work as microservices.
-```
 
 Fundamentally, the decision about which functionality to split into a microservice will be a balance between these two forces—how easy the extraction is versus the benefit of extracting the microservice in the first place.
 

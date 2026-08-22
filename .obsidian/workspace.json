@@ -83,10 +83,24 @@
             "id": "fdb25a140a5f1b89",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Splitting the Monolith.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Splitting the Monolith"
             }
           }
         ],
@@ -112,7 +126,7 @@
                 "sortOrder": "alphabetical",
                 "autoReveal": false,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "spl"
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -249,11 +263,12 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "f2968546cba20459",
+  "active": "fdb25a140a5f1b89",
   "lastOpenFiles": [
+    "Coding/satisfies-15-02-2026.md",
+    "Statements/Statements.md",
     "Productivity/eat-the-frog-14-02-2026.md",
     "Architecture/DDIA-14-03-2026.md",
-    "Statements/Statements.md",
     "Thoughts/Function Abstration.md",
     "Thoughts/Defensive Programming.md",
     "Coding/Concurrency/Latency vs Throughput.md",
@@ -282,7 +297,6 @@
     "Coding/Concurrency/Mutex.md",
     "Coding/Concurrency/Memory Ordering.md",
     "Coding/Concurrency/Lock Poisoning.md",
-    "Coding/Concurrency/Lazy Initialization.md",
     "Coding/Concurrency",
     "Books/rust/Rust Atomics and Locks/Atomics",
     "Books/rust/Write Powerful Rust Macros",

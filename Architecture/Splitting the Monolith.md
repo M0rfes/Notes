@@ -3,7 +3,7 @@ title: Splitting Monolith
 type: research
 status: budding
 created: 2026-04-26
-updated: 2026-04-26
+updated: 2026-09-22
 tags:
   - architecture
   - microservices

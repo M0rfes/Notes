@@ -2,7 +2,7 @@
 title: Latency Throughput
 type: concept
 status: seed
-created: 2026-08-21
+created: 2026-09-22
 tags:
   - concurrency
   - performance
@@ -21,7 +21,7 @@ Performance in computing is quantified in two ways: latency and throughput.
 
 For example, if it takes 1 hour for one person to go from point A to point B on a motorcycle and then to a bus carrying 50 people, it takes 2 hours; the bike's latency is lower, but the bus's throughput is 25x that of a motorcycle.
 
-Optimising for one may degrade.
+Optimising for one may degrade another.
 
 [[Concurrency]] can help with latency by breaking down a long-running task and executing it in parallel.
 [[Concurrency]] can improve throughput by enabling us to perform multiple tasks simultaneously.

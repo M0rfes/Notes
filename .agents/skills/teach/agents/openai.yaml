@@ -1,0 +1,5 @@
+interface:
+  display_name: "Teach"
+  short_description: "Learn a concept in an Obsidian wiki workspace under Teach/"
+policy:
+  allow_implicit_invocation: false

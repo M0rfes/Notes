@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teach/C17/C17.md",
+                "file": "Emulation/CHIP-8.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C17"
+              "title": "CHIP-8"
             }
           }
         ],
@@ -231,10 +231,10 @@
   },
   "active": "f102ce3cc3a96e43",
   "lastOpenFiles": [
+    "Teach/C17/C17.md",
     "Teach/C17/NOTES.md",
     "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
     "Emulation/CHIP-8.md",
-    "Teach/C17/C17.md",
     "Teach/C17/GLOSSARY.md",
     "CHIP-8.md",
     "Emulation",

@@ -2,6 +2,8 @@
 name: teach
 description: Teach the user a new skill or concept within an Obsidian vault wiki structure under Teach/<Topic>/. Use when the user asks to learn a topic, wants structured interactive lessons, or asks to be taught something.
 argument-hint: "What would you like to learn about?"
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 The user has asked you to teach them something. This is a stateful request — they intend to learn the topic over multiple sessions within their Obsidian vault.

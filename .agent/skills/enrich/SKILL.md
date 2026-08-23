@@ -1,6 +1,8 @@
 ---
 name: enrich
 description: Enriches an Obsidian note by adding frontmatter metadata, tags, wikilinks to existing vault notes, fact-checking, reorganizing thoughts into a logical structure, placing root notes into appropriate directories, and handling consolidation with user confirmation, while strictly preserving the user's original writing without adding any AI-generated text.
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 # Enrich Note Skill
@@ -19,7 +21,7 @@ When processing a note, perform the following tasks in order:
 
 2. **Add / Update YAML Frontmatter**
    - Ensure the note starts with a valid YAML frontmatter block (`---`).
-   - Include standard properties such as `title:`, `type:`, `status:`, `created:` (or current date `YYYY-MM-DD`), `tags:`, `aliases:`, and any relevant category/domain fields.
+   - Include standard properties such as `title:`, `type:`, `status:`, `created:` (YYYY-MM-DD), `updated:` (YYYY-MM-DD, matching `created` on initial creation and updated whenever modifying existing notes), `tags:`, `aliases:`, and any relevant category/domain fields.
 
 3. **Discover & Add Wikilinks (`[[Note Title]]`)**
    - Scan the Obsidian vault for existing notes across all directories.

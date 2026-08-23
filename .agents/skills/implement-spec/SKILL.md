@@ -2,6 +2,8 @@
 name: implement-spec
 description: "Implement a specification in code."
 disable-model-invocation: true
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 You have been provided a spec. This spec should have tickets associated with it, describing how to implement the spec.

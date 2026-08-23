@@ -2,6 +2,8 @@
 name: writing-shape
 description: "Writing, exploit: shape raw material into an article, paragraph by paragraph."
 disable-model-invocation: true
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 <what-to-do>

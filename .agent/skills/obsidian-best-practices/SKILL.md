@@ -1,6 +1,8 @@
 ---
 name: obsidian-best-practices
 description: Best practices and established patterns for developing, debugging, and maintaining Obsidian plugins and themes. Make sure to use this skill whenever the user is building or modifying an Obsidian plugin or theme, dealing with Obsidian API issues, fixing plugin load errors, doing error hunting, or struggling with CSS/UI adjustments inside Obsidian.
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 # Obsidian Plugin & Theme Best Practices

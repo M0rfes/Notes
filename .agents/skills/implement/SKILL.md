@@ -2,6 +2,8 @@
 name: implement
 description: "Implement a piece of work based on a spec or set of tickets."
 disable-model-invocation: true
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 Implement the work described by the user in the spec or tickets.

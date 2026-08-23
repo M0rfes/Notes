@@ -1,6 +1,8 @@
 ---
 name: zettelkasten
 description: Decomposes a monolithic note into atomic Zettelkasten notes by extracting independent concepts into language-agnostic concept notes and implementation-specific notes, linking them via wikilinks and embeds (![[...]]), and converting the original note into a Map of Content (MOC), strictly preserving the user's writing without adding AI-generated text.
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 # Zettelkasten Extraction Skill
@@ -41,6 +43,7 @@ When a note is passed to this skill, execute the following steps in order:
   type: concept
   status: seed
   created: <YYYY-MM-DD>
+  updated: <YYYY-MM-DD>
   tags:
     - <tag1>
     - <tag2>
@@ -61,6 +64,7 @@ When a note is passed to this skill, execute the following steps in order:
   type: implementation
   status: seed
   created: <YYYY-MM-DD>
+  updated: <YYYY-MM-DD>
   tags:
     - <language>
     - <topic>

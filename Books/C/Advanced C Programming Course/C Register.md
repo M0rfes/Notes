@@ -3,6 +3,7 @@ title: C Register Storage Class
 type: implementation
 status: seed
 created: 2026-08-23
+updated: 2026-08-23
 tags:
   - c
   - memory

@@ -3,6 +3,7 @@ title: Rust Cell
 type: implementation
 status: seed
 created: 2026-08-18
+updated: 2026-08-18
 tags:
   - rust
   - interior-mutability

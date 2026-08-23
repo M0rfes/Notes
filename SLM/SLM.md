@@ -8,6 +8,7 @@ tags:
   - data-privacy
   - fine-tuning
 created: 2026-08-14
+updated: 2026-08-14
 aliases:
   - Small Language Models
   - Small Language Model

@@ -3,6 +3,7 @@ title: CHIP-8
 type: concept
 status: seed
 created: 2026-08-23
+updated: 2026-08-23
 tags:
   - emulation
   - architecture

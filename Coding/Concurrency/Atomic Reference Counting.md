@@ -3,6 +3,7 @@ title: Atomic Refcounting
 type: concept
 status: seed
 created: 2026-08-18
+updated: 2026-08-18
 tags:
   - concurrency
   - smart-pointers

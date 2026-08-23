@@ -3,6 +3,7 @@ title: Storage Classes in C
 type: moc
 status: seed
 created: 2026-08-23
+updated: 2026-08-23
 tags:
   - c
   - programming

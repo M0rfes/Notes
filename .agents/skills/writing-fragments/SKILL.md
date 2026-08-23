@@ -2,6 +2,8 @@
 name: writing-fragments
 description: "Writing, explore: mine raw fragments, no structure yet."
 disable-model-invocation: true
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 <what-to-do>

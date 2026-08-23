@@ -2,6 +2,8 @@
 name: improve-codebase-architecture
 description: Scan a codebase for deepening opportunities, present them as a visual HTML report, then grill through whichever one you pick.
 disable-model-invocation: true
+created: 2026-08-23
+updated: 2026-08-23
 ---
 
 # Improve Codebase Architecture

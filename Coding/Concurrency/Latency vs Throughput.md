@@ -3,6 +3,7 @@ title: Latency Throughput
 type: concept
 status: seed
 created: 2026-09-22
+updated: 2026-09-22
 tags:
   - concurrency
   - performance

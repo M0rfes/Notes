@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teach/C17/Reference/Standard IO and Binary File Streams.md",
-                "mode": "preview",
+                "file": "Teach/C17/RESOURCES.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,10 +28,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Standard IO and Binary File Streams"
+              "title": "RESOURCES"
+            }
+          },
+          {
+            "id": "f102ce3cc3a96e43",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,16 +95,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "7f94840c9f216bec",
-            "type": "leaf",
-            "state": {
-              "type": "notebook-navigator",
-              "state": {},
-              "icon": "notebook-navigator",
-              "title": "Notebook Navigator"
             }
           }
         ]
@@ -190,13 +191,28 @@
       "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "207a61b12c949f7d",
+  "active": "f102ce3cc3a96e43",
   "lastOpenFiles": [
+    "Books/C/Advanced C Programming Course/C Register.md",
+    "Books/C/Advanced C Programming Course/C Static.md",
+    "Books/C/Advanced C Programming Course/C Extern.md",
+    "Books/C/Advanced C Programming Course/C Auto.md",
+    "Coding/Register Storage.md",
+    "Coding/Automatic Storage Duration.md",
+    "Coding/Variable Lifetime.md",
+    "Coding/Variable Linkage.md",
+    "Coding/Variable Scope.md",
+    "Books/C/Advanced C Programming Course/Storage Classes.md",
+    "Coding/Concurrency/Static Lifetime.md",
+    "Untitled.md",
+    "Books/C/Advanced C Programming Course",
+    "Teach/C17/RESOURCES.md",
+    "Books/C",
+    "Teach/C17/C17.md",
+    "Teach/C17/Reference/Standard IO and Binary File Streams.md",
     "Teach/C17/Reference/Modern C17 Toolchain and CMake.md",
     "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
     "Teach/C17/Learning Records/0004-stdio-conventions-and-fread-mechanics.md",
-    "Teach/C17/Reference/Standard IO and Binary File Streams.md",
-    "Teach/C17/C17.md",
     "Teach/C17/Learning Records/0003-cmake-sdl2-and-integer-truncation.md",
     "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
     "Teach/C17/Learning Records/0002-chip8-codebase-audit.md",
@@ -204,7 +220,6 @@
     "Teach/C17/NOTES.md",
     "Teach/C17/GLOSSARY.md",
     "Teach/C17/MISSION.md",
-    "Teach/C17/RESOURCES.md",
     "Teach/C17/Reference",
     "Teach/C17/Lessons",
     "Teach/C17/Learning Records",
@@ -212,23 +227,9 @@
     "Teach",
     "Books/Grokking Concurrency/Serial and parallel execution.md",
     "skills-lock.json",
-    "Coding/Concurrency/Latency vs Throughput.md",
-    "Architecture/Splitting the Monolith.md",
-    "Coding/satisfies-15-02-2026.md",
-    "Statements/Statements.md",
-    "Productivity/eat-the-frog-14-02-2026.md",
-    "Architecture/DDIA-14-03-2026.md",
-    "Thoughts/Function Abstration.md",
-    "Thoughts/Defensive Programming.md",
     "Thoughts",
-    "Books/Grokking Concurrency/Introducing concurrency.md",
-    "Coding/Concurrency/Scalability.md",
-    "Coding/Concurrency/Concurrency.md",
-    "Books/rust/Rust Atomics and Locks/Memory Ordering.md",
     "Books/Grokking Concurrency",
     "Untitled.canvas",
-    "Untitled 1.base",
-    "Untitled.base",
     "images/Pasted image 20260414194252.png",
     "images/Pasted image 20260414192702.png",
     "posts/2026-04-26/monolith-decomposition.png",

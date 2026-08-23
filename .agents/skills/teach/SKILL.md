@@ -17,17 +17,23 @@ The state of their learning is captured in this directory as an interconnected w
 - `Teach/<Topic>/RESOURCES.md`: Curated trusted sources (books, papers, documentation) and wisdom communities (forums, study groups), cross-linked to existing vault reading notes. See [RESOURCES-FORMAT.md](./RESOURCES-FORMAT.md).
 - `Teach/<Topic>/GLOSSARY.md`: Canonical terminology and tight definitions for the topic, linking to vault concept notes. See [GLOSSARY-FORMAT.md](./GLOSSARY-FORMAT.md).
 - `Teach/<Topic>/NOTES.md`: Scratchpad for the teacher to record learner preferences, pacing notes, and working context.
-- `Teach/<Topic>/Lessons/NNNN-<dash-case-name>.md`: Self-contained Obsidian Markdown lessons. Each lesson teaches one tightly-scoped skill tied to the mission. See [LESSON-FORMAT.md](./LESSON-FORMAT.md).
+- `Teach/<Topic>/Lessons/NNNN-<dash-case-name>.md`: Self-contained Obsidian Markdown challenge lessons. Each lesson teaches one tightly-scoped skill through step-by-step building and testing without solution code. See [LESSON-FORMAT.md](./LESSON-FORMAT.md).
 - `Teach/<Topic>/Reference/*.md`: Compressed markdown reference sheets, cheat sheets, syntax summaries, and algorithmic workflows. Designed for quick review.
 - `Teach/<Topic>/Learning Records/NNNN-<dash-case-name>.md`: Sequential records of verified understanding, mastered milestones, corrected misconceptions, and prior knowledge. Loosely equivalent to ADRs (Architectural Decision Records). See [LEARNING-RECORD-FORMAT.md](./LEARNING-RECORD-FORMAT.md).
 
-## Philosophy
+## Philosophy: Deliberate Practice & Active Building
 
-To learn at a deep level, the user needs three things:
+True mastery comes from active building and deliberate practice, modeled after [Coding Challenges](https://codingchallenges.fyi/challenges/intro):
 
-- **Knowledge**, captured from high-quality, high-trust resources. Never trust unverified parametric knowledge; verify against documentation, books, and primary sources.
-- **Skills**, acquired through highly relevant interactive lessons with active recall and tight feedback loops.
-- **Wisdom**, which comes from interacting with real-world practitioners and communities.
+- **Knowledge**, captured from high-quality, high-trust resources (official specs, man pages, RFCs). Never trust unverified parametric knowledge; verify against documentation, books, and primary sources.
+- **Skills**, acquired by writing full tools and utilities step by step, testing each milestone with concrete verification commands.
+- **Wisdom**, which comes from navigating trade-offs, debugging edge cases, and interacting with real-world practitioner communities.
+
+### Zero-Code Policy (Code On-Demand Only)
+
+- **No implementation code in lesson plans**: Never provide solution code, boilerplate implementations, or functions inside lesson documents. The learner must write all code themselves.
+- **Challenge steps & test commands only**: Provide clear requirements, background, mental models, and sequential steps (Step Zero: Setup, Step One, Step Two, etc.) alongside the exact test commands, sample inputs, and expected outputs.
+- **Provide code only on explicit request**: If the user explicitly asks for code or hints during the conversation, provide it in the chat, not pre-baked into the lesson.
 
 ### Fluency vs Storage Strength
 
@@ -37,9 +43,9 @@ Distinguish between two types of memory strength:
 - **Storage strength**: Long-term durable retention and transferability.
 
 Build storage strength through **desirable difficulty**:
-1. **Retrieval Practice**: Active recall via foldable Obsidian question/solution callouts (`> [!QUESTION]` and `> [!FAQ]- Solution`).
-2. **Spacing**: Revisiting and building upon earlier concepts across subsequent lessons.
-3. **Interleaving**: Mixing related sub-skills during practice rather than isolated massed repetition.
+1. **Hands-On Construction**: The learner solves every step themselves from scratch.
+2. **Deterministic Verification**: Testing each step against concrete test commands and expected outputs.
+3. **Spacing & Interleaving**: Incrementally composing tools across subsequent lessons.
 
 ## Wiki Interlinking & Obsidian Syntax
 
@@ -57,22 +63,20 @@ Every file created in `Teach/<Topic>/` must behave as part of an interconnected 
    - Embed lesson summaries or learning record overviews into the main Topic MOC.
 
 3. **Callouts (`> [!...]`)**:
-   - `> [!NOTE]` / `> [!INFO]`: Core concepts and takeaways.
-   - `> [!TIP]`: Practical mental models, rules of thumb, and heuristics.
-   - `> [!WARNING]`: Common traps, anti-patterns, and edge cases.
-   - `> [!QUESTION]`: Retrieval prompts and active recall questions.
-   - `> [!FAQ]- Solution (Click to reveal)`: Collapsible callouts for quiz solutions and exercise explanations to prevent accidental spoiler peeking.
+   - `> [!NOTE]`: Challenge goals and key takeaways.
+   - `> [!TIP]`: Mental models, heuristics, and architectural guidance.
+   - `> [!WARNING]`: Edge cases, protocol nuances, and common pitfalls.
 
 4. **Visuals & Diagrams**:
-   - Use Mermaid diagrams (` ```mermaid `) for architectures, workflows, state transitions, and memory layouts.
-   - Use formatted syntax-highlighted code blocks (` ```rust `, ` ```python `, etc.).
+   - Use Mermaid diagrams (` ```mermaid `) for architectures, workflows, state transitions, protocols, and data flows.
+   - Use code blocks strictly for test commands (`bash`), sample inputs/fixtures (`json`, `txt`, `c`, etc.), and expected output (`text`). Do not include solution code.
 
 5. **YAML Frontmatter**:
    - Every file must start with valid YAML frontmatter specifying `title`, `type` (`teach-moc`, `lesson`, `reference`, `learning-record`, `mission`, `glossary`, `notes`), `topic`, `created`, `updated`, `tags`, and `aliases`.
    - Always include and maintain `updated: YYYY-MM-DD` (matching `created: YYYY-MM-DD` upon creation, and updated whenever modifying existing notes). 
 
 6. **Interactive Checklists**:
-   - Use GitHub-style task checkboxes (`- [ ]`) for hands-on exercises and step-by-step application tasks.
+   - Use GitHub-style task checkboxes (`- [ ]`) for verification steps and completion criteria.
 
 ## The Mission
 
@@ -87,14 +91,14 @@ When the mission shifts, update `MISSION.md` and record a Learning Record.
 Keep the user challenged "just enough". Before authoring a new lesson:
 1. Read existing `Learning Records/` to identify what is already mastered.
 2. Select the next logical concept that bridges current knowledge to the mission.
-3. Keep the scope tight: one single win per lesson completable in 5–10 minutes.
+3. Structure the challenge into small, testable steps (completable in 5–10 minute milestones).
 
 ## Lessons Workflow
 
 When teaching a topic:
 1. Check existing lessons in `Teach/<Topic>/Lessons/` to determine the next sequence number (`0001`, `0002`, ...).
-2. Author the lesson in Obsidian Markdown using [LESSON-FORMAT.md](./LESSON-FORMAT.md).
+2. Author the lesson in Obsidian Markdown using [LESSON-FORMAT.md](./LESSON-FORMAT.md) following the Coding Challenges structure (steps + verification test steps, NO code).
 3. Cross-link to `GLOSSARY.md`, `MISSION.md`, related reference sheets, and vault notes.
 4. Update the Topic MOC (`Teach/<Topic>/<Topic>.md`) with the new lesson link.
-5. If the user successfully demonstrates understanding during the lesson, create a new learning record in `Teach/<Topic>/Learning Records/` using [LEARNING-RECORD-FORMAT.md](./LEARNING-RECORD-FORMAT.md).
+5. When the user tests and completes their implementation, create a new learning record in `Teach/<Topic>/Learning Records/` using [LEARNING-RECORD-FORMAT.md](./LEARNING-RECORD-FORMAT.md).
 6. If the `obsidian` CLI is available, open the newly created lesson for the user (`obsidian open file="Teach/<Topic>/Lessons/0001-<name>.md"`).

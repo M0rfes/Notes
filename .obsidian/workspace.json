@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teach/C17/RESOURCES.md",
+                "file": "Books/C/Advanced C Programming Course/C Register.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,21 +28,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "RESOURCES"
+              "title": "C Register"
+            }
+          },
+          {
+            "id": "6f8125e428855dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "0002-binary-file-io-and-rom-loading"
             }
           },
           {
             "id": "f102ce3cc3a96e43",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Teach/C17/C17.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C17"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -193,42 +231,42 @@
   },
   "active": "f102ce3cc3a96e43",
   "lastOpenFiles": [
+    "Teach/C17/NOTES.md",
+    "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
+    "Emulation/CHIP-8.md",
+    "Teach/C17/C17.md",
+    "Teach/C17/GLOSSARY.md",
+    "CHIP-8.md",
+    "Emulation",
+    "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
     "Books/C/Advanced C Programming Course/C Register.md",
+    "Coding/Register Storage.md",
+    "Teach/C17/RESOURCES.md",
     "Books/C/Advanced C Programming Course/C Static.md",
+    "Books/C/Advanced C Programming Course/Storage Classes.md",
     "Books/C/Advanced C Programming Course/C Extern.md",
     "Books/C/Advanced C Programming Course/C Auto.md",
-    "Coding/Register Storage.md",
     "Coding/Automatic Storage Duration.md",
     "Coding/Variable Lifetime.md",
     "Coding/Variable Linkage.md",
     "Coding/Variable Scope.md",
-    "Books/C/Advanced C Programming Course/Storage Classes.md",
     "Coding/Concurrency/Static Lifetime.md",
-    "Untitled.md",
     "Books/C/Advanced C Programming Course",
-    "Teach/C17/RESOURCES.md",
     "Books/C",
-    "Teach/C17/C17.md",
     "Teach/C17/Reference/Standard IO and Binary File Streams.md",
     "Teach/C17/Reference/Modern C17 Toolchain and CMake.md",
-    "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
     "Teach/C17/Learning Records/0004-stdio-conventions-and-fread-mechanics.md",
     "Teach/C17/Learning Records/0003-cmake-sdl2-and-integer-truncation.md",
-    "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
     "Teach/C17/Learning Records/0002-chip8-codebase-audit.md",
     "Teach/C17/Learning Records/0001-baseline-and-prerequisites.md",
-    "Teach/C17/NOTES.md",
-    "Teach/C17/GLOSSARY.md",
     "Teach/C17/MISSION.md",
     "Teach/C17/Reference",
     "Teach/C17/Lessons",
     "Teach/C17/Learning Records",
     "Teach/C17",
     "Teach",
-    "Books/Grokking Concurrency/Serial and parallel execution.md",
     "skills-lock.json",
     "Thoughts",
-    "Books/Grokking Concurrency",
     "Untitled.canvas",
     "images/Pasted image 20260414194252.png",
     "images/Pasted image 20260414192702.png",

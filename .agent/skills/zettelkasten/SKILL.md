@@ -96,9 +96,19 @@ When a note is passed to this skill, execute the following steps in order:
 
 ---
 
+## Teach Directory Protection (`Teach/`)
+
+> [!IMPORTANT]
+> **Content in `Teach/` is managed exclusively by the `teach` skill.**
+> - **Allowed**: Discovering and linking to content inside `Teach/` using wikilinks (`[[Teach/...]]`) and embeds (`![[Teach/...]]`).
+> - **Forbidden**: Decomposing, splitting, heavily altering, or extracting content out of `Teach/` notes when decomposing monolithic notes or consolidating repeated information.
+
+---
+
 ## CRITICAL RULE: Zero AI-Generated Text
 
 > [!IMPORTANT]
 > **DO NOT ADD ANY NEW AI-GENERATED CONTENT OR TEXT THAT THE USER DID NOT WRITE.**
 > - **Allowed**: Splitting and reorganizing existing text chunks, adding YAML frontmatter, adding wikilinks (`[[ ]]`), adding embeds (`![[ ]]`), adding Markdown headers (`#`, `##`), and fixing minor grammatical errors/typos.
 > - **Forbidden**: Fabricating explanations, adding AI summaries, introductions, transitions, or unsolicited opinions not present in the user's original writing.
+

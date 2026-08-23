@@ -2,13 +2,13 @@
 
 Lessons live in `Teach/<Topic>/Lessons/` and use four-digit zero-padded sequential numbering: `0001-slug.md`, `0002-slug.md`, etc.
 
-A lesson is a single self-contained Obsidian Markdown document designed for high legibility, active recall, and tight feedback.
+A lesson is a step-by-step challenge modeled after [Coding Challenges](https://codingchallenges.fyi/challenges/intro). It provides clear domain background, mental models, and sequential implementation steps (Step Zero: Setup, Step One, Step Two, etc.) alongside concrete verification test commands and expected outputs — **with zero solution code**. The learner writes all implementation code themselves.
 
 ## Template
 
 ```md
 ---
-title: "Lesson {NNNN}: {Lesson Title}"
+title: "Lesson {NNNN}: {Challenge Title}"
 type: lesson
 topic: "{Topic}"
 created: YYYY-MM-DD
@@ -17,23 +17,23 @@ tags:
   - teach/{topic-slug}
   - lesson
 aliases:
-  - "{Lesson Title}"
+  - "{Challenge Title}"
 ---
 
 [[../{Topic}|← {Topic} MOC]] · [[../MISSION|🎯 Mission]] · [[../GLOSSARY|📖 Glossary]]
 
-# Lesson {NNNN}: {Lesson Title}
+# Lesson {NNNN}: {Challenge Title}
 
-> [!NOTE] Tangible Win
-> By the end of this lesson, you will be able to: **{One specific, observable capability}**.
+> [!NOTE] Challenge Goal
+> By the end of this challenge, you will build and verify: **{One specific, observable capability or feature}**.
 
 ---
 
-## 1. Core Concept
+## 1. Challenge & Background
 
-{2-4 paragraphs explaining the concept clearly. Ground definitions by linking to [[../GLOSSARY#{Term}|{Term}]] and relevant vault notes like [[Coding/{Topic}/{Concept}|{Concept}]].}
+{2-3 paragraphs explaining the challenge, practical utility, and background concepts. Ground definitions by linking to [[../GLOSSARY#{Term}|{Term}]] and relevant vault notes like [[Coding/{Topic}/{Concept}|{Concept}]]. Link to specifications, RFCs, or man pages where applicable.}
 
-> [!TIP] Mental Model / Heuristic
+> [!TIP] Mental Model
 > {A crisp 1-2 sentence mental model or rule of thumb to anchor understanding.}
 
 ---
@@ -42,51 +42,111 @@ aliases:
 
 ```mermaid
 graph TD
-    A[Input / Problem] --> B[Core Mechanism]
-    B --> C[Outcome / Solution]
+    A[Input / CLI / Stream] --> B[Core Mechanism / Parser]
+    B --> C[Expected Output / State Update]
+```
+
+> [!WARNING] Edge Case & Common Trap
+> {A frequent pitfall, boundary case, byte ordering gotcha, or anti-pattern to avoid.}
+
+---
+
+## 3. Step Zero: Environment & Test Setup
+
+Set up your development workspace, test files, or sample fixtures needed to verify your solution:
+
+```bash
+# Example setup command / generating test fixture
 ```
 
 ---
 
-## 3. Practical Mechanics
+## 4. Challenge Steps
 
-{Syntax-highlighted code block or concrete step-by-step example.}
+### Step One: {First Minimal Working Milestone}
 
-```rust
-// Example code demonstrating the pattern
-fn main() {
-    // Clear comments explaining key lines
-}
+**Goal**: {Concise description of what feature, flag, or behavior to implement.}
+
+**How to Test**:
+```bash
+> {your_command} {args} test_input
 ```
 
-> [!WARNING] Common Trap
-> {A frequent pitfall, anti-pattern, or compiler error learners encounter with this pattern.}
+**Expected Output**:
+```text
+{exact expected output}
+```
+
+If your output matches, congratulations! On to Step Two.
 
 ---
 
-## 4. Interactive Retrieval & Practice
+### Step Two: {Next Incremental Feature / Option}
 
-> [!QUESTION] Active Recall: Check Your Understanding
-> {A crisp question testing the core mechanism without visual clues.}
+**Goal**: {Add the next flag, parse the next data structure, or handle secondary behavior.}
 
-> [!FAQ]- Solution (Click to reveal)
-> **Answer**: {Direct, unambiguous answer and explanation.}
+**How to Test**:
+```bash
+> {your_command} {args} test_input
+```
 
-### Hands-On Exercise
-- [ ] {Step 1: Concrete task to perform}
-- [ ] {Step 2: Verification or test case}
-- [ ] {Step 3: Self-assessment check}
+**Expected Output**:
+```text
+{exact expected output}
+```
 
 ---
 
-## 5. Primary Source & Further Reading
+### Step Three: {Combined / Default Behavior}
 
-- [Primary Source: {Title} by {Author}]({URL}) — {1-sentence explanation of why this is the highest-trust source on this concept.}
+**Goal**: {Combine features, handle default configurations, or support multiple inputs.}
+
+**How to Test**:
+```bash
+> {your_command} test_input
+```
+
+**Expected Output**:
+```text
+{exact expected output}
+```
+
+---
+
+### The Final Step: {Streams / Edge Cases / Robustness}
+
+**Goal**: {Handle standard input streams (`stdin` / pipes), error handling, or edge cases.}
+
+**How to Test**:
+```bash
+> cat test_input | {your_command}
+```
+
+**Expected Output**:
+```text
+{exact expected output}
+```
+
+---
+
+## 5. Verification Checklist
+
+- [ ] Step Zero: Environment and test fixtures prepared
+- [ ] Step One: {Milestone 1} verified with expected output
+- [ ] Step Two: {Milestone 2} verified with expected output
+- [ ] Step Three: {Milestone 3} verified with expected output
+- [ ] Final Step: {Final capability} verified with expected output
+
+---
+
+## 6. Primary Sources & Further Reading
+
+- [Canonical Specification / RFC / Documentation: {Title}]({URL}) — {1-sentence explanation of why this is the authoritative reference.}
 
 ---
 
 ## 💬 Next Steps
-Ask the agent any questions that remain unclear, or declare when you have completed the exercise to generate the next lesson and record your milestone in [[../Learning Records/|Learning Records]].
+Run the test commands against your implementation. If you need code snippets or hints, ask for them! When you have verified all steps, declare completion to record your milestone in [[../Learning Records/|Learning Records]] and unlock the next lesson.
 
 ---
 [[{Previous-Lesson-Slug}|← Previous Lesson]] · [[../{Topic}|Curriculum Hub]] · [[{Next-Lesson-Slug}|Next Lesson →]]
@@ -94,8 +154,10 @@ Ask the agent any questions that remain unclear, or declare when you have comple
 
 ## Rules
 
-- **Tight Scope**: One single skill or concept per lesson. Completable in 5–10 minutes.
+- **Zero-Code Policy**: Never output implementation code, boilerplate solutions, or function bodies in lesson plans. Only output test commands, inputs, and expected outputs. If the learner needs code, they will explicitly ask for it in chat.
+- **Step-by-Step Challenge Format**: Follow the [Coding Challenges](https://codingchallenges.fyi/challenges/intro) layout: Step Zero (setup), followed by incremental steps (Step One, Step Two, etc.) leading to a complete working feature.
+- **Concrete Verification Steps**: Every single step MUST contain exact instructions on how to test the implementation, including the command to run and the expected terminal/test output.
+- **Tight Scope**: One cohesive challenge per lesson, completable in sequential 5–10 minute milestones.
 - **Wikilink Extensively**: Cross-link terms to `[[../GLOSSARY#Term]]`, related reference sheets in `[[../Reference/]]`, and existing vault notes.
-- **Collapsible Spoilers**: Always wrap quiz solutions in `> [!FAQ]- Solution (Click to reveal)` so the learner can test retrieval before peeking.
-- **High-Trust Citations**: Include at least one verified primary source per lesson.
 - **Format Integrity**: Clean Obsidian callouts and standard YAML frontmatter on every lesson.
+

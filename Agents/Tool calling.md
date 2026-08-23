@@ -5,11 +5,9 @@ status: seed
 created: 2026-07-25
 updated: 2026-07-25
 tags:
-  - ai
   - agents
   - llm
   - tool-calling
-  - function-calling
   - niah
 aliases:
   - Function Calling
@@ -33,7 +31,6 @@ related:
   - "[[MCP]]"
   - "[[SLM]]"
 ---
-
 # Tool Calling
 
 Tool calling is an [[LLM|LLM]] feature that lets models run code or perform tasks beyond just producing text. Tool calls are the core capability that makes [[Agents]] possible.

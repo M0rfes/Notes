@@ -4,7 +4,11 @@ type: research
 status: seed
 created: 2026-04-19
 updated: 2026-04-19
-tags: [architecture, microservices, ddd, strategy]
+tags:
+  - architecture
+  - microservices
+  - ddd
+  - refactoring
 aliases: [Service Decomposition, Splitting Services]
 summary: A comprehensive guide on decomposing systems into microservices using DDD, volatility, data compliance, technology runtimes, and organizational structure.
 entities: [DDD, Microservices, Rust, C++, C, HIPAA, PCI, PII]
@@ -14,7 +18,6 @@ related:
   - Architecture/Coupling.md
   - Architecture/building-microservices-16-02-2026.md
 ---
-
 When splitting up services for a [[Microservices|microservice architecture]], we can use many approaches to define boundaries and ensure system health.
 
 ## [[DDD|Domain-Driven Design (DDD)]]

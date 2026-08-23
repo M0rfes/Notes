@@ -4,14 +4,16 @@ type: research
 status: seed
 created: 2026-03-30
 updated: 2026-03-30
-tags: [llm, quantization, optimization, model-compression]
+tags:
+  - llm
+  - quantization
+  - optimization
 aliases: [Quantization, Model Compression]
 summary: Techniques for reducing the precision of model weights to decrease memory usage and speed up inference.
 entities: [BitNet, AWQ, GPTQ]
 topics: [Low-Precision Training, Weight Pruning, 4-bit Quantization, 8-bit Quantization]
 related: [LLMs/TurboQuant.md, LLMs/LLMs.md]
 ---
-
 # Quantization
 
 **[[Quantization]]** is the process of mapping high-precision floating-point numbers (e.g., FP32 or FP16) to lower-precision formats (e.g., INT8, INT4, or even 1.58-bit).

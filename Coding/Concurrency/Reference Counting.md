@@ -5,12 +5,13 @@ status: seed
 created: 2026-08-18
 updated: 2026-08-18
 tags:
-  - memory-management
+  - concurrency
   - smart-pointers
+  - reference-counting
+  - memory
 aliases:
   - Ref Counting
 ---
-
 # Reference Counting
 
 Reference counting is a smart pointer mechanism that gives you a reference-counted value. It keeps a count of all owners and drops the value only when the counter reaches 0.

@@ -7,9 +7,8 @@ updated: 2026-08-22
 tags:
   - teach/c17
   - notes
-  - chip8
+  - chip-8
 ---
-
 [[C17|← C17 MOC]]
 
 # Teacher Notes & Project Context: CHIP-8 in C17

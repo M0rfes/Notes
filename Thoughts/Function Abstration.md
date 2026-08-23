@@ -8,9 +8,8 @@ tags:
   - clean-code
   - refactoring
   - software-design
-  - local-reasoning
-  - dry
   - single-responsibility
+  - dry
 aliases:
   - Function Abstraction
   - Local Reasoning vs DRY
@@ -22,7 +21,6 @@ topics:
   - Single Responsibility Principle
   - Refactoring
 ---
-
 # Function Abstraction and Local Reasoning
 
 Usually, when discussing functions, the advice is to abstract them to maintain the DRY principle (i.e., refactor code when you need to repeat the same steps). While a good rule when starting, the real reason to create, refactor to, or abstract to a function should be to maintain **local reasoning**.

@@ -9,11 +9,10 @@ tags:
   - lesson
   - cmake
   - toolchain
-  - chip8
+  - chip-8
 aliases:
   - "Lesson 0001: C17 Standards & Toolchain"
 ---
-
 [[../C17|← C17 MOC]] · [[../MISSION|🎯 Mission]] · [[../GLOSSARY|📖 Glossary]]
 
 # Lesson 0001: ISO C17 Standards, Compiler Diagnostics & CMake with SDL2

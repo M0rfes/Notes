@@ -7,7 +7,7 @@ updated: 2026-03-30
 tags:
   - rag
   - research
-  - ai-architecture
+  - architecture
 aliases:
   - RAG
   - Retrieval-Augmented Generation
@@ -29,7 +29,6 @@ related:
   - LLMs/Re-ranking.md
   - LLMs/Tokenization.md
 ---
-
 # Retrieval-Augmented Generation (RAG)
 
 [[RAG]] or **Retrieval-augmented generation** means augmenting the query before passing it to the [[LLM]] for final inference. We need [[RAG]] to pass up-to-date or private data that the LLM might not have been trained on.

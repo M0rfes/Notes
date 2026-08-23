@@ -5,7 +5,7 @@ status: seed
 created: 2026-07-31
 updated: 2026-07-31
 tags:
-  - agent
+  - agents
   - langgraph
   - orchestration
   - multi-agent
@@ -24,7 +24,6 @@ related:
   - LLMs/Agentic RAG.md
   - "[[MCP]]"
 ---
-
 # LangGraph
 
 **[[LangGraph]]** is a specialized framework designed to build stateful, multi-actor applications with **[[LLM|LLMs]]**.

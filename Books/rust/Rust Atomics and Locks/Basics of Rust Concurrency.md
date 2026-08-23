@@ -6,19 +6,13 @@ tags:
   - rust
   - concurrency
   - threads
-  - statics
-  - reference-counting
-  - interior-mutability
   - atomics
   - locks
-  - mutex
-  - rwlock
 aliases:
   - Threads in Rust
   - Basics of Rust Concurrency
 category: Books/Rust
 ---
-
 # Basics of Rust Concurrency
 
 ## [[Rust Threads|Threads in Rust]]

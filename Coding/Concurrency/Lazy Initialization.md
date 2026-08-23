@@ -6,11 +6,10 @@ created: 2026-08-18
 updated: 2026-08-18
 tags:
   - concurrency
-  - patterns
+  - lazy-initialization
 aliases:
   - Once Initialization
 ---
-
 # Lazy Initialization
 
 Lazy initialization is a pattern where a constant or expensive resource is calculated only when first requested and then stored for subsequent use.

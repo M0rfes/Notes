@@ -5,10 +5,9 @@ status: seed
 created: 2026-03-29
 updated: 2026-03-30
 tags:
-  - microsoft
+  - rag
   - graph-rag
   - research
-  - rag
 aliases:
   - Microsoft GraphRAG
   - MS GraphRAG
@@ -23,7 +22,6 @@ related:
   - LLMs/Knowledge Graphs.md
   - LLMs/RAG.md
 ---
-
 # Microsoft GraphRAG
 
 A framework for implementing **[[GraphRAG]]** developed by **[[Microsoft]]**.

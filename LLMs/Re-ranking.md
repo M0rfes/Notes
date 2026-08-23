@@ -4,14 +4,17 @@ type: research
 status: seed
 created: 2026-03-29
 updated: 2026-03-31
-tags: [rag, re-ranking, research, search-optimization]
+tags:
+  - rag
+  - re-ranking
+  - research
+  - retrieval
 aliases: [Two-Stage Retrieval, Reranking]
 summary: A two-stage retrieval process where initial candidates from a broad search are filtered by a specialized ranking engine to improve precision.
 entities: [Cohere, Pinecone, LlamaIndex, LangChain, BGE, ColBERT]
 topics: [Two-Stage Retrieval, Vector Search, Semantic Search, Cross-encoders, Precision Filtering]
 related: [LLMs/RAG.md, LLMs/Agentic RAG.md, LLMs/Router Pattern.md]
 ---
-
 # Re-ranking
 
 [[RAG]] Strategy (Source: [Ottomator Agents](https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies#1-re-ranking))

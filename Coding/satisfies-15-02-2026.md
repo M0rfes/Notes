@@ -6,7 +6,7 @@ created: 2026-02-15
 updated: 2026-08-22
 tags:
   - typescript
-  - coding
+  - type-system
   - pattern-matching
 aliases:
   - TypeScript Satisfies
@@ -21,7 +21,6 @@ topics:
   - Type Safety
 related: []
 ---
-
 # TypeScript Satisfies Operator
 
 This demonstrates how we can use the `satisfies` operator in [[TypeScript]] with a `switch` statement to achieve exhaustive matching.

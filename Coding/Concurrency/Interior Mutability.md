@@ -5,12 +5,13 @@ status: seed
 created: 2026-08-18
 updated: 2026-08-18
 tags:
-  - memory
+  - concurrency
+  - interior-mutability
   - type-system
+  - memory
 aliases:
   - Shared Mutability
 ---
-
 # Interior Mutability
 
 Interior mutability lets you mutate a value via a shared/read reference.

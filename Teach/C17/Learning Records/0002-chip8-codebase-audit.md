@@ -8,9 +8,8 @@ status: active
 tags:
   - teach/c17
   - learning-record
-  - chip8
+  - chip-8
 ---
-
 [[../C17|← C17 MOC]] · [[../MISSION|🎯 Mission]]
 
 # LR-0002: CHIP-8 Codebase Audit & Architecture Baseline

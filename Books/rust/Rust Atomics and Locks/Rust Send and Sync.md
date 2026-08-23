@@ -8,13 +8,11 @@ tags:
   - rust
   - concurrency
   - thread-safety
-  - auto-traits
 aliases:
   - Send and Sync in Rust
   - Auto Traits
 category: Books/Rust
 ---
-
 # Thread Safety in Rust: Send and Sync
 
 ![[Send and Sync]]

@@ -7,9 +7,8 @@ updated: 2026-08-22
 tags:
   - teach/c17
   - mission
-  - chip8
+  - chip-8
 ---
-
 [[C17|← C17 MOC]]
 
 # Mission: C17 Systems Mastery via CHIP-8 Emulator

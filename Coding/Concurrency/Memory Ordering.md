@@ -7,12 +7,11 @@ updated: 2026-08-18
 tags:
   - concurrency
   - atomics
-  - memory-model
+  - memory-ordering
 aliases:
   - CPU Ordering
   - Memory Model
 ---
-
 # Memory Ordering
 
 All [[Atomic Operations|atomic operations]] take an ordering parameter that controls what guarantees we get about the relative ordering of operations.

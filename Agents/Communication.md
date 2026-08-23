@@ -5,7 +5,7 @@ status: seed
 created: 2026-04-11
 updated: 2026-04-11
 tags:
-  - multi-agent-systems
+  - multi-agent
   - architecture
   - orchestration
 aliases:
@@ -27,7 +27,6 @@ related:
   - "[[Architecture]]"
   - "[[Router Pattern]]"
 ---
-
 When running a [[multi-agent system]], we need a way for [[Agents|agents]] to communicate with one another. There are quite a few ways for the agents to talk/pass info to each other.
 
 # Linear

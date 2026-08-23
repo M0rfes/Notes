@@ -6,7 +6,7 @@ created: 2026-03-29
 updated: 2026-03-30
 tags:
   - rag
-  - ai-agents
+  - agents
   - research
   - agentic-rag
 aliases:
@@ -32,7 +32,6 @@ related:
   - LLMs/Re-ranking.md
   - LLMs/Knowledge Graphs.md
 ---
-
 # Agentic RAG
 
 [[RAG]] (Source: [Ottomator Agents](https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies#2-agentic-rag))

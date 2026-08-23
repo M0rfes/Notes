@@ -6,10 +6,10 @@ created: 2026-08-18
 updated: 2026-08-18
 tags:
   - defensive-programming
+  - error-handling
+  - software-design
   - frontend
   - backend
-  - error-handling
-  - software-engineering
 aliases:
   - Defensive Programming
   - UI Resilience

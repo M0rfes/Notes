@@ -4,14 +4,17 @@ type: index
 status: active
 created: 2026-03-30
 updated: 2026-07-26
-tags: [llm, index, research, ai]
+tags:
+  - llm
+  - moc
+  - research
+  - ai
 aliases: [Large Language Models, AI Notes]
 summary: Central hub for all notes related to Large Language Models (LLMs), including architecture, retrieval, and optimization.
 entities: []
 topics: [Retrieval-Augmented Generation, Tokenization, Quantization, Performance Optimization]
 related: [LLMs/RAG.md, LLMs/Tokenization.md, LLMs/Encoder.md, LLMs/decoder.md]
 ---
-
 # Large Language Models (LLMs) MOC
 
 A central index for exploring concepts, architectures, and strategies related to **[[LLM]]**.

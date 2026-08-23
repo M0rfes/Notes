@@ -6,7 +6,6 @@ created: 2026-08-23
 updated: 2026-08-23
 tags:
   - c
-  - programming
   - memory
   - storage-classes
   - moc
@@ -15,7 +14,6 @@ aliases:
   - C Storage Classes
 category: Books/C
 ---
-
 # Storage Classes
 
 Storage classes are used to describe the scope, visibility and [[Variable Lifetime|lifetime]] of a variable or function.

@@ -6,10 +6,9 @@ created: 2026-07-31
 updated: 2026-07-31
 tags:
   - llm
-  - agent
-  - router-pattern
-  - routing
+  - agents
   - rag
+  - router-pattern
 aliases:
   - Router Pattern
   - Semantic Router
@@ -26,7 +25,6 @@ related:
   - Communication
   - needle-in-a-haystack-20-03-2026
 ---
-
 # Router Pattern
 
 The **[[Router Pattern]]** is an architectural pattern used in **[[Agents|AI Agents]]** and **[[Agentic RAG]]** where a classifier or [[LLM|LLM]] acts as a dispatcher, evaluating incoming user queries and routing them to the most appropriate execution path, index, or tool.

@@ -4,14 +4,17 @@ type: research
 status: budding
 created: 2026-04-20
 updated: 2026-04-20
-tags: [architecture, monolith, modularity, velocity, volatility]
+tags:
+  - architecture
+  - monolith
+  - modularity
+  - software-design
 aliases: [Modular Monolith, Monolith First]
 summary: A deep dive into why Modular Monoliths are often the best choice for maximizing development velocity and managing volatility without the "distributed system tax."
 entities: [Shopify, Ruby on Rails]
 topics: [Software Architecture, Velocity, Volatility, Modular Monolith, Microservices]
 related: [How to split a microservice, building-microservices-16-02-2026, "[[Coupling]]", "[[DDIA-14-03-2026|DDIA - Reliability]]"]
 ---
-
 # Case For Monolith
 
 [[Microservices]] are not the goal. You don’t “win” by having microservices. Adopting a microservice architecture should be a conscious decision, grounded in rational analysis. You should consider migrating to a microservice architecture only if you can’t find a simpler way to reach your end goal with your current architecture.

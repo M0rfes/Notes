@@ -9,11 +9,10 @@ tags:
   - lesson
   - file-io
   - memory
-  - chip8
+  - chip-8
 aliases:
   - "Lesson 0002: Binary File I/O & ROM Loading"
 ---
-
 [[../C17|← C17 MOC]] · [[../MISSION|🎯 Mission]] · [[../GLOSSARY|📖 Glossary]]
 
 # Lesson 0002: Safe Binary File I/O & ROM Loading into Memory at 0x200

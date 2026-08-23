@@ -7,11 +7,11 @@ updated: 2026-08-18
 tags:
   - concurrency
   - memory
+  - statics
 aliases:
   - Statics
   - Static Variables
 ---
-
 # Static Lifetime
 
 A static lifetime means the value will exist until the end of the program, so any value with a static lifetime can be shared across [[Threads|threads]].

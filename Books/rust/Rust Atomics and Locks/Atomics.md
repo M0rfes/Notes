@@ -8,13 +8,11 @@ tags:
   - atomics
   - memory-ordering
   - lazy-initialization
-  - race-condition
 aliases:
   - Atomics
   - Rust Atomics
 category: Books/Rust
 ---
-
 # Atomics
 
 ## [[Rust Atomics|Atomic Operations]]

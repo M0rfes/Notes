@@ -6,11 +6,10 @@ created: 2026-08-18
 updated: 2026-08-18
 tags:
   - concurrency
-  - synchronization
+  - condvar
 aliases:
   - Condvar
 ---
-
 # Condition Variables
 
 A Condition Variable is used to notify one or more [[Threads|threads]] of an event when the shared data is protected by a [[Mutex]].

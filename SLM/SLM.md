@@ -3,7 +3,6 @@ title: SLM
 tags:
   - slm
   - llm
-  - ai
   - edge-computing
   - data-privacy
   - fine-tuning
@@ -14,7 +13,6 @@ aliases:
   - Small Language Model
 related: [Quantisation, Router Pattern, Speculative Decoding, MCP]
 ---
-
 # SLM
 
 SLMs, i.e., small language models, range from a few million to 10 billion parameters. SLMs are not a new technology; they are based on the same Transformer architecture as [[LLM|LLMs]] introduced in Attention Is All You Need ([https://arxiv.org/abs/1706.03762](https://arxiv.org/abs/1706.03762)).

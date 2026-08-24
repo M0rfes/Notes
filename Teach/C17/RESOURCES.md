@@ -1,12 +1,13 @@
 ---
-title: "C17 Resources"
+title: C17 Resources
 type: resources
-topic: "C17"
+topic: C17
 created: 2026-08-22
 updated: 2026-08-22
 tags:
   - teach/c17
   - resources
+flastcard: "false"
 ---
 
 [[C17|← C17 MOC]]

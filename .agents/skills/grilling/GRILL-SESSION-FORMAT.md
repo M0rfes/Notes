@@ -70,19 +70,19 @@ related:
 
 ### Round 1
 
-❓ **Q1** - **{Question Title}**: {Question body and choices}
+❓ **Q1** - **{Question Title}**: {Open-ended question body prompting for the user's reasoning, concept explanation, or trade-off evaluation}
 
-➡️ **Recommended**: {Recommended answer and rationale}
+💬 **User Answer**: {User's raw typed response}
 
-💬 **Decision**: {User's answer and settled rationale}
+📊 **Evaluation & Analysis**: {Assessment of understanding, key strengths, gaps identified, or settled architectural decision}
 
 ---
 
-❓ **Q2** - **{Question Title}**: {Question body and choices}
+❓ **Q2** - **{Question Title}**: {Open-ended question body prompting for the user's reasoning, concept explanation, or trade-off evaluation}
 
-➡️ **Recommended**: {Recommended answer and rationale}
+💬 **User Answer**: {User's raw typed response}
 
-💬 **Decision**: {User's answer and settled rationale}
+📊 **Evaluation & Analysis**: {Assessment of understanding, key strengths, gaps identified, or settled architectural decision}
 
 ---
 
@@ -94,10 +94,10 @@ related:
 
 ## Settled Decisions & Blueprint
 
-{Synthesized summary of all final decisions, architectural constraints, and accepted trade-offs.}
+{Synthesized summary of all final decisions, architectural constraints, and knowledge assessment.}
 
-- **{Decision Area 1}**: {Agreed path and reason}
-- **{Decision Area 2}**: {Agreed path and reason}
+- **{Topic / Decision Area 1}**: {Agreed path or demonstrated mastery level}
+- **{Topic / Decision Area 2}**: {Agreed path or demonstrated mastery level}
 
 ## Deferred & Out of Scope
 

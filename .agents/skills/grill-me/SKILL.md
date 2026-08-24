@@ -17,5 +17,5 @@ Conduct a relentless interview to stress-test a plan, architecture, or design id
 3. Follow all vault rules:
    - Complete YAML frontmatter with `title`, `type: grill-session`, `status: seed`, `created: YYYY-MM-DD`, `updated: YYYY-MM-DD`, `tags: [grill, ...]`, `aliases`, `summary`, `topics`, and `related: ["[[...]]"]`.
    - Scan the vault for existing notes and connect concepts using `[[Wikilinks]]`.
-   - Record questions (`❓`), recommendations (`➡️`), and user decisions (`💬`) round-by-round.
-   - Finalize the note (update `status: evergreen`, `summary`, and settled decisions) once the frontier is empty and the user confirms shared understanding.
+   - Record questions (`❓`), user answers (`💬`), and evaluation / decisions (`📊`) round-by-round without presenting pre-revealed multiple-choice options.
+   - Finalize the note (update `status: evergreen`, `summary`, and settled decisions/assessment) once the frontier is empty and the user confirms shared understanding.

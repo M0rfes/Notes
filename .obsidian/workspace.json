@@ -4,20 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "0af6f8af6caf0d04",
+        "id": "77e684332bd490b6",
         "type": "tabs",
         "children": [
           {
-            "id": "2f71b5e55023465c",
+            "id": "207a61b12c949f7d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Books/C/Advanced C Programming Course/C Register.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "C Register"
+            }
+          },
+          {
+            "id": "6f8125e428855dfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "0002-binary-file-io-and-rom-loading"
+            }
+          },
+          {
+            "id": "f102ce3cc3a96e43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Emulation/CHIP-8.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CHIP-8"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -162,20 +225,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "notebook-navigator:Notebook Navigator": false
     }
   },
-  "active": "2f71b5e55023465c",
+  "active": "f102ce3cc3a96e43",
   "lastOpenFiles": [
+    "Emulation/CHIP-8.md",
     "Grill/C Systems Programming.md",
-    "Teach/C17/RESOURCES.md",
-    "Grill",
-    "Grill/Vault Knowledge Diagnostic.md",
-    "Untitled.base",
-    "Thoughts/Defensive Programming.md",
-    "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
-    "Books/C/Advanced C Programming Course/C Register.md",
     "Books/C/Advanced C Programming Course/C Auto.md",
+    "Untitled.base",
+    "Grill",
     "Teach/C17/Learning Records/0004-stdio-conventions-and-fread-mechanics.md",
     "Teach/C17/Learning Records/0003-cmake-sdl2-and-integer-truncation.md",
     "Teach/C17/Learning Records/0002-chip8-codebase-audit.md",
@@ -184,17 +244,21 @@
     "Teach/C17/Reference/Modern C17 Toolchain and CMake.md",
     "Teach/C17/C17.md",
     "Teach/C17/NOTES.md",
+    "Teach/C17/RESOURCES.md",
     "Teach/C17/MISSION.md",
     "Agents/Communication.md",
     "Agents/Agents.md",
-    "Emulation/CHIP-8.md",
     "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
     "Teach/C17/GLOSSARY.md",
     "CHIP-8.md",
     "Emulation",
+    "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
+    "Books/C/Advanced C Programming Course/C Register.md",
     "Coding/Register Storage.md",
     "Books/C/Advanced C Programming Course/C Static.md",
     "Books/C/Advanced C Programming Course/Storage Classes.md",
+    "Books/C/Advanced C Programming Course/C Extern.md",
+    "Coding/Automatic Storage Duration.md",
     "Books/C/Advanced C Programming Course",
     "Books/C",
     "Teach/C17/Reference",

@@ -3,7 +3,7 @@ title: "Standard I/O & Binary File Streams in C17"
 type: reference
 topic: "C17"
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-25
 tags:
   - teach/c17
   - reference
@@ -11,7 +11,7 @@ tags:
   - file-io
 ---
 
-[[../C17|← C17 MOC]] · [[../Lessons/0002-binary-file-io-and-rom-loading|Lesson 0002]]
+[[Teach/C17/C17|← C17 MOC]] · [[Teach/C17/MISSION|🎯 Mission]] · [[Teach/C17/GLOSSARY|📖 Glossary]] · [[Teach/C17/Lessons/0002-binary-file-io-and-rom-loading|Lesson 0002]]
 
 # Standard I/O & Binary File Streams Reference (C17)
 
@@ -24,10 +24,10 @@ tags:
 
 Unlike modern languages with exceptions or `Result<T, E>` types, C standard library functions use two distinct return conventions:
 
-| Convention | Success Value | Error / Failure Value | Examples |
-| :--- | :--- | :--- | :--- |
-| **Status / Error Code** | **`0`** (`EXIT_SUCCESS`) | **Non-zero** (or `< 0`, setting `errno`) | `fseek()`, `fclose()`, `strcmp()`, `pthread_create()` |
-| **Value / Count / Handle** | Valid object / count | `NULL` or `EOF` (`-1`) | `fopen()` (`NULL`), `fread()` (items read), `ftell()` (`-1L`) |
+| Convention | Success Value | Error / Failure Value | Examples | Vault Cross-Reference |
+| :--- | :--- | :--- | :--- | :--- |
+| **Status / Error Code** | **`0`** (`EXIT_SUCCESS`) | **Non-zero** (or `< 0`, setting `errno`) | `fseek()`, `fclose()`, `strcmp()`, `pthread_create()` | [[Thoughts/Defensive Programming|Defensive Invariants]] |
+| **Value / Count / Handle** | Valid object / count | `NULL` or `EOF` (`-1`) | `fopen()` (`NULL`), `fread()` (items read), `ftell()` (`-1L`) | [[Grill/C Systems Programming|Grill Diagnostic]] |
 
 > [!TIP] The `fseek` Check Pattern
 > According to ISO C17 (§7.21.9.2), `fseek` returns *nonzero* on failure. Always test `if (fseek(f, offset, origin) != 0)` to handle any non-zero error code portably.
@@ -55,6 +55,7 @@ $$\text{Total Bytes Read} = \text{size} \times \text{nmemb}$$
 `fread` returns the **number of whole elements successfully read (`nmemb`)**, not the raw byte count.
 - If reading 10 `Player` structs (40 bytes each) and the file cuts off after 7 full structs (280 bytes), `fread` returns **`7`**.
 - This enables instant validation: `if (fread(team, sizeof(Player), 10, f) != 10) { /* handle incomplete read */ }`.
+- In CHIP-8 emulation, loading the binary ROM into RAM starting at `0x200` directly maps to the [[Emulation/CHIP-8#Memory|CHIP-8 Memory Architecture]].
 
 ---
 

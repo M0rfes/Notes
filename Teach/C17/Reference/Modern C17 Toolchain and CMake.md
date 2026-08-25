@@ -3,7 +3,7 @@ title: "Modern C17 Toolchain and CMake Reference"
 type: reference
 topic: "C17"
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-25
 tags:
   - teach/c17
   - reference
@@ -11,7 +11,7 @@ tags:
   - toolchain
 ---
 
-[[../C17|← C17 MOC]] · [[../MISSION|🎯 Mission]]
+[[Teach/C17/C17|← C17 MOC]] · [[Teach/C17/MISSION|🎯 Mission]] · [[Teach/C17/GLOSSARY|📖 Glossary]] · [[Teach/C17/RESOURCES|📚 Resources]]
 
 # Modern C17 Toolchain & CMake Reference
 
@@ -78,11 +78,11 @@ cmake --build build
 
 ## 3. Essential Compiler Diagnostic Flags
 
-| Flag | Purpose | Why it matters in C17 |
-| :--- | :--- | :--- |
-| `-Wall -Wextra -Wpedantic` | Baseline warning suite | Catches non-standard extensions and common errors. |
-| `-Wshadow` | Variable shadowing | Prevents inner scope variables from hiding outer scope variables. |
-| `-Wconversion` | Implicit type conversions | Prevents silent truncations (e.g. `uint64_t` into `uint32_t`). |
-| `-Wstrict-prototypes` | Enforce empty parameter prototypes | In C, `void foo()` means *unspecified arguments*; `void foo(void)` is required. |
-| `-fsanitize=address` | AddressSanitizer (ASan) | Catches buffer overflows, use-after-free, double-frees at runtime. |
-| `-fsanitize=undefined` | UndefinedBehaviorSanitizer (UBSan) | Catches signed overflow, null pointer dereferencing, alignment faults. |
+| Flag | Purpose | Why it matters in C17 | Vault Cross-Reference |
+| :--- | :--- | :--- | :--- |
+| `-Wall -Wextra -Wpedantic` | Baseline warning suite | Catches non-standard extensions and common errors. | [[Books/C/Advanced C Programming Course/Storage Classes|C Storage Classes]] |
+| `-Wshadow` | Variable shadowing | Prevents inner scope variables from hiding outer scope variables. | [[Coding/Variable Scope|Variable Scope]] |
+| `-Wconversion` | Implicit type conversions | Prevents silent truncations (e.g. `uint64_t` into `uint32_t`). | [[Grill/C Systems Programming|Grilling Diagnostic]] |
+| `-Wstrict-prototypes` | Enforce empty parameter prototypes | In C, `void foo()` means *unspecified arguments*; `void foo(void)` is required. | [[Teach/C17/GLOSSARY#Unspecified Behavior|Unspecified Behavior]] |
+| `-fsanitize=address` | AddressSanitizer (ASan) | Catches buffer overflows, use-after-free, double-frees at runtime. | [[Teach/C17/GLOSSARY#AddressSanitizer (ASan)|ASan in Glossary]] |
+| `-fsanitize=undefined` | UndefinedBehaviorSanitizer (UBSan) | Catches signed overflow, null pointer dereferencing, alignment faults. | [[Teach/C17/GLOSSARY#UndefinedBehaviorSanitizer (UBSan)|UBSan in Glossary]] |

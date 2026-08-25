@@ -3,7 +3,7 @@ title: "Lesson 0001: ISO C17 Standards, Compiler Diagnostics & CMake with SDL2"
 type: lesson
 topic: "C17"
 created: 2026-08-22
-updated: 2026-08-22
+updated: 2026-08-25
 tags:
   - teach/c17
   - lesson
@@ -13,7 +13,8 @@ tags:
 aliases:
   - "Lesson 0001: C17 Standards & Toolchain"
 ---
-[[../C17|← C17 MOC]] · [[../MISSION|🎯 Mission]] · [[../GLOSSARY|📖 Glossary]]
+
+[[Teach/C17/C17|← C17 MOC]] · [[Teach/C17/MISSION|🎯 Mission]] · [[Teach/C17/GLOSSARY|📖 Glossary]] · [[Teach/C17/RESOURCES|📚 Resources]]
 
 # Lesson 0001: ISO C17 Standards, Compiler Diagnostics & CMake with SDL2
 
@@ -60,12 +61,12 @@ graph LR
 
 - **In Node.js**: Memory is abstracted behind garbage collection (V8). You cannot manage cache lines, alignment, or raw stack frames.
 - **In Rust/Go**: The compiler prevents invalid memory operations at compile time or via runtime garbage collection.
-- **In C17**: You have direct control over hardware and memory layout. In your CHIP-8 emulator, `Memory.memory[4096]` represents the physical RAM directly. If you index beyond `4095`, C will not stop you—it will trigger [[../GLOSSARY#Undefined Behavior (UB)|Undefined Behavior (UB)]].
+- **In C17**: You have direct control over hardware and memory layout. In your [[Emulation/CHIP-8|CHIP-8 emulator]], `Memory.memory[4096]` represents the physical RAM directly. If you index beyond `4095`, C will not stop you—it will trigger [[Teach/C17/GLOSSARY#Undefined Behavior (UB)|Undefined Behavior (UB)]].
 
 > [!TIP] The Function Prototype Trap in C
 > In Node.js, Go, Rust, and C++, `void foo()` declares a function taking **zero** arguments.
 > In C, `void foo()` declares a function taking an **unspecified number of arguments** (legacy C89 artifact).
-> In modern C, you must **always** write `void foo(void)` to declare a zero-argument function. We enforce `-Wstrict-prototypes` to catch this error automatically.
+> In modern C, you must **always** write `void foo(void)` to declare a zero-argument function. We enforce `-Wstrict-prototypes` to catch this error automatically. See [[Books/C/Advanced C Programming Course/Storage Classes|C Storage Classes]] and [[Grill/C Systems Programming|C Systems Diagnostic]].
 
 ---
 
@@ -88,14 +89,14 @@ sequenceDiagram
 ```
 
 To catch errors early in this pipeline, we equip Clang/GCC with two critical dynamic instrumentation tools:
-1. **[[../GLOSSARY#AddressSanitizer (ASan)|AddressSanitizer (ASan)]]**: Detects buffer overflows, stack/heap out-of-bounds access, and memory leaks.
-2. **[[../GLOSSARY#UndefinedBehaviorSanitizer (UBSan)|UndefinedBehaviorSanitizer (UBSan)]]**: Detects integer overflows, null-pointer dereferences, and misalignment at runtime.
+1. **[[Teach/C17/GLOSSARY#AddressSanitizer (ASan)|AddressSanitizer (ASan)]]**: Detects buffer overflows, stack/heap out-of-bounds access, and memory leaks.
+2. **[[Teach/C17/GLOSSARY#UndefinedBehaviorSanitizer (UBSan)|UndefinedBehaviorSanitizer (UBSan)]]**: Detects integer overflows, null-pointer dereferences, and misalignment at runtime.
 
 ---
 
 ## 4. Production `CMakeLists.txt` for `chip-8-emu/c`
 
-Place this `CMakeLists.txt` directly in `/Users/morfes/projects/chip-8-emu/c/CMakeLists.txt`:
+Place this `CMakeLists.txt` directly in `/Users/morfes/projects/chip-8-emu/c/CMakeLists.txt` (derived from [[Teach/C17/Reference/Modern C17 Toolchain and CMake|Toolchain Reference]]):
 
 ```cmake
 cmake_minimum_required(VERSION 3.20)
@@ -193,7 +194,7 @@ endif()
 ---
 
 ## 💬 Next Steps
-Try running the CMake build on your `chip-8-emu/c` directory! Once configured, we will proceed to **[[../Lessons/0002-binary-file-io-and-rom-loading|Lesson 0002: Safe Binary File I/O & ROM Loading into Memory at 0x200]]**!
+Try running the CMake build on your `chip-8-emu/c` directory! Once configured, we will proceed to **[[Teach/C17/Lessons/0002-binary-file-io-and-rom-loading|Lesson 0002: Safe Binary File I/O & ROM Loading into Memory at 0x200]]**!
 
 ---
-[[../C17|← C17 MOC]] · [[0002-binary-file-io-and-rom-loading|Lesson 0002: Binary File I/O & ROM Loading →]]
+[[Teach/C17/C17|← C17 MOC]] · [[Teach/C17/Lessons/0002-binary-file-io-and-rom-loading|Lesson 0002: Binary File I/O & ROM Loading →]]

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "77e684332bd490b6",
+        "id": "3c18cedd47df6374",
         "type": "tabs",
         "children": [
           {
-            "id": "207a61b12c949f7d",
+            "id": "f69f6d58d6288e01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/C/Advanced C Programming Course/C Register.md",
+                "file": "Books/C/Advanced C Programming Course/C Typedef.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "C Register"
+              "title": "C Typedef"
             }
           },
           {
-            "id": "6f8125e428855dfc",
+            "id": "349b3dfe9fd8b7f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
+                "file": "Books/C/Advanced C Programming Course/C Define Constants.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,16 +52,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0002-binary-file-io-and-rom-loading"
+              "title": "C Define Constants"
             }
           },
           {
-            "id": "f102ce3cc3a96e43",
+            "id": "2c90d8271cc38908",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Emulation/CHIP-8.md",
+                "file": "Coding/Preprocessor Directives.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,35 +76,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CHIP-8"
-            }
-          },
-          {
-            "id": "2d67c2527c367fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "0002-binary-file-io-and-rom-loading"
+              "title": "Preprocessor Directives"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -252,8 +228,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2d67c2527c367fe1",
+  "active": "2c90d8271cc38908",
   "lastOpenFiles": [
+    "Books/C/Advanced C Programming Course/C Define Constants.md",
+    "Books/C/Advanced C Programming Course/Advanced Datatypes.md",
+    "Coding/Type Alias.md",
+    "Books/C/Advanced C Programming Course/C Typedef.md",
+    "Books/C/Advanced C Programming Course/C Variable Length Array.md",
+    "Books/C/Advanced C Programming Course/C Complex Numbers.md",
+    "Books/C/Advanced C Programming Course/C Flexible Array Members.md",
+    "Coding/Complex Numbers.md",
+    "Coding/Flexible Array Member.md",
+    "Coding/Variable Length Array.md",
+    "Coding/Preprocessor Directives.md",
+    "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
+    "Teach/C17/Learning Records/0002-chip8-codebase-audit.md",
+    "Teach/C17/RESOURCES.md",
+    "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
     "Coding/Computed Gotos in C (Direct Threaded Code).md",
     "Untitled.canvas",
     "Computed Gotos in C (Direct Threaded Code).md",
@@ -264,25 +255,11 @@
     "Grill",
     "Teach/C17/Learning Records/0004-stdio-conventions-and-fread-mechanics.md",
     "Teach/C17/Learning Records/0003-cmake-sdl2-and-integer-truncation.md",
-    "Teach/C17/Learning Records/0002-chip8-codebase-audit.md",
     "Teach/C17/Learning Records/0001-baseline-and-prerequisites.md",
     "Teach/C17/Reference/Standard IO and Binary File Streams.md",
     "Teach/C17/Reference/Modern C17 Toolchain and CMake.md",
     "Teach/C17/C17.md",
-    "Teach/C17/NOTES.md",
-    "Teach/C17/RESOURCES.md",
-    "Teach/C17/MISSION.md",
-    "Agents/Communication.md",
-    "Agents/Agents.md",
-    "Teach/C17/Lessons/0001-c17-standards-and-modern-toolchain.md",
-    "Teach/C17/GLOSSARY.md",
-    "CHIP-8.md",
     "Emulation",
-    "Teach/C17/Lessons/0002-binary-file-io-and-rom-loading.md",
-    "Books/C/Advanced C Programming Course/C Register.md",
-    "Coding/Register Storage.md",
-    "Books/C/Advanced C Programming Course/C Static.md",
-    "Books/C/Advanced C Programming Course/Storage Classes.md",
     "Books/C/Advanced C Programming Course",
     "Books/C",
     "Teach/C17/Reference",

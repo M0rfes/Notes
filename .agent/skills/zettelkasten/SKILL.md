@@ -2,7 +2,7 @@
 name: zettelkasten
 description: Decomposes a monolithic note into atomic Zettelkasten notes by extracting independent concepts into language-agnostic concept notes and implementation-specific notes, linking them via wikilinks and embeds (![[...]]), and converting the original note into a Map of Content (MOC), strictly preserving the user's writing without adding AI-generated text.
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-31
 ---
 
 # Zettelkasten Extraction Skill
@@ -20,6 +20,10 @@ Use this skill when the user asks to turn a note into a Zettelkasten, extract at
    - Notes reference other related vault notes with inline wikilinks: `[[Note Title]]` or `[[Note Title|Alias]]`.
 4. **Map of Content (MOC)**:
    - The original note remains at its file path and serves as a structured MOC / chapter overview, embedding the extracted implementation notes (`![[Implementation Note]]`) under relevant headers (`## [[Implementation Note|Section Title]]`).
+5. **Frontmatter & Property Preservation**:
+   - Never remove or strip existing frontmatter properties (especially `flashcard:`, e.g., `flashcard: "false"` or `flashcard: "true"`).
+   - When converting a note into an MOC, preserve its entire pre-existing frontmatter block intact (updating `updated:` as needed).
+   - Extracted concept and implementation notes should retain or inherit relevant frontmatter properties (such as `flashcard`) from the source note if present.
 
 ---
 
@@ -36,7 +40,7 @@ When a note is passed to this skill, execute the following steps in order:
 
 ### 2. Extract Concept Notes (Layer 1)
 - Create individual concept notes for every independent theoretical idea in the appropriate domain folder (e.g., `Coding/Concurrency/`, `Architecture/`, etc.).
-- Include standard YAML frontmatter:
+- Include standard YAML frontmatter (preserving/inheriting existing properties like `flashcard:` from the source note if present):
   ```yaml
   ---
   title: <Concept Name>
@@ -50,6 +54,7 @@ When a note is passed to this skill, execute the following steps in order:
   aliases:
     - <Alias 1>
     - <Alias 2>
+  flashcard: "false" # Retain if present in source note
   ---
   ```
 - Use the user's conceptual explanation as the note body.
@@ -57,7 +62,7 @@ When a note is passed to this skill, execute the following steps in order:
 
 ### 3. Extract Implementation Notes (Layer 2)
 - Create individual implementation notes containing the concrete code examples, language mechanics, and practical considerations.
-- Include standard YAML frontmatter:
+- Include standard YAML frontmatter (preserving/inheriting existing properties like `flashcard:` from the source note if present):
   ```yaml
   ---
   title: <Language/Context Specific Name>
@@ -71,6 +76,7 @@ When a note is passed to this skill, execute the following steps in order:
   aliases:
     - <Alias 1>
   category: <Category>
+  flashcard: "false" # Retain if present in source note
   ---
   ```
 - Embed the core concept at the top:
@@ -83,6 +89,7 @@ When a note is passed to this skill, execute the following steps in order:
 
 ### 4. Convert Original Note into a Map of Content (MOC)
 - Replace the monolithic content of the original note with an organized MOC structure.
+- **Preserve Existing Frontmatter**: Do NOT wipe out or remove existing frontmatter properties (especially `flashcard:`, e.g. `flashcard: "false"`, `created:`, `tags:`, etc.). Keep all pre-existing properties intact, updating only the `updated:` date and relevant metadata.
 - Organize sections using wikilink headings and embeds:
   ```markdown
   # <Chapter / Main Topic Title>
@@ -113,6 +120,6 @@ When a note is passed to this skill, execute the following steps in order:
 
 > [!IMPORTANT]
 > **DO NOT ADD ANY NEW AI-GENERATED CONTENT OR TEXT THAT THE USER DID NOT WRITE.**
-> - **Allowed**: Splitting and reorganizing existing text chunks, adding YAML frontmatter, adding wikilinks (`[[ ]]`), adding embeds (`![[ ]]`), adding Markdown headers (`#`, `##`), and fixing minor grammatical errors/typos.
+> - **Allowed**: Splitting and reorganizing existing text chunks, adding YAML frontmatter (preserving existing properties such as `flashcard`), adding wikilinks (`[[ ]]`), adding embeds (`![[ ]]`), adding Markdown headers (`#`, `##`), and fixing minor grammatical errors/typos.
 > - **Forbidden**: Fabricating explanations, adding AI summaries, introductions, transitions, or unsolicited opinions not present in the user's original writing.
 

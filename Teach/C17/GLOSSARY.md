@@ -1,7 +1,7 @@
 ---
-title: "C17 Glossary"
+title: C17 Glossary
 type: glossary
-topic: "C17"
+topic: C17
 created: 2026-08-22
 updated: 2026-08-25
 tags:

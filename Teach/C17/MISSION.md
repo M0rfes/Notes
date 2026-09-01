@@ -8,6 +8,7 @@ tags:
   - teach/c17
   - mission
   - chip-8
+flashcard: "false"
 ---
 
 [[C17|← C17 MOC]] · [[GLOSSARY|📖 Glossary]] · [[RESOURCES|📚 Resources]] · [[NOTES|📝 Teacher Notes]]

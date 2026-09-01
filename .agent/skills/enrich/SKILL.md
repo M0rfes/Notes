@@ -2,7 +2,7 @@
 name: enrich
 description: Enriches an Obsidian note by adding frontmatter metadata, tags, wikilinks to existing vault notes, fact-checking, reorganizing thoughts into a logical structure, placing root notes into appropriate directories, and handling consolidation with user confirmation, while strictly preserving the user's original writing without adding any AI-generated text.
 created: 2026-08-23
-updated: 2026-08-23
+updated: 2026-08-31
 ---
 
 # Enrich Note Skill
@@ -22,6 +22,7 @@ When processing a note, perform the following tasks in order:
 2. **Add / Update YAML Frontmatter**
    - Ensure the note starts with a valid YAML frontmatter block (`---`).
    - Include standard properties such as `title:`, `type:`, `status:`, `created:` (YYYY-MM-DD), `updated:` (YYYY-MM-DD, matching `created` on initial creation and updated whenever modifying existing notes), `tags:`, `aliases:`, and any relevant category/domain fields.
+   - **Preserve Existing Frontmatter Properties**: Never remove or strip existing frontmatter properties. In particular, always preserve the `flashcard` property (e.g., `flashcard: "false"` or `flashcard: "true"`) and any other pre-existing metadata fields.
 
 3. **Discover & Add Wikilinks (`[[Note Title]]`)**
    - Scan the Obsidian vault for existing notes across all directories.
@@ -67,5 +68,5 @@ When encountering repeated, duplicated, or overlapping concepts across multiple 
 
 > [!IMPORTANT]
 > **DO NOT ADD ANY TEXT THAT THE USER DID NOT WRITE.**
-> - **Allowed**: Reordering sentences/bullets, adding Markdown markup (`#`, `- `, `*`), adding YAML frontmatter fields, adding wikilink brackets (`[[ ]]`), adding tags (`#tag`), and fixing factual inaccuracies in-place.
+> - **Allowed**: Reordering sentences/bullets, adding Markdown markup (`#`, `- `, `*`), adding YAML frontmatter fields (while preserving existing properties like `flashcard`), adding wikilink brackets (`[[ ]]`), adding tags (`#tag`), and fixing factual inaccuracies in-place.
 > - **Forbidden**: Adding summaries, introductions, conclusions, transitions, explanatory notes, AI commentary, or new ideas/words not written by the user.
